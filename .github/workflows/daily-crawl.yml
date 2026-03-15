@@ -2,7 +2,7 @@ name: Daily KBO Crawl
 
 on:
   schedule:
-    - cron: '10 18 * * *' # 03:10 KST
+    - cron: '0 16 * * *' # 01:00 KST
   workflow_dispatch:
 
 permissions:
