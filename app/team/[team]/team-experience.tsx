@@ -86,7 +86,7 @@ export function TeamExperience({
 
         {view === "intro" ? (
           <div className="intro-panel">
-            <p className="hero-label">LuckMatchDay</p>
+            <p className="hero-label">LuckyMatchDay</p>
             <button className="fortune-trigger" type="button" onClick={() => setView("loading")}>
               <span className="fortune-trigger__media">
                 {introImageSrc ? (

@@ -586,7 +586,6 @@ p {
 
 .league-table__team {
   font-weight: 700;
-  text-transform: lowercase;
 }
 
 .league-table tbody tr.league-table__row--active {

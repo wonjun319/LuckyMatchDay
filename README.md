@@ -1,10 +1,10 @@
-# LuckMatchDay
+# LuckyMatchDay
 
 Next.js app for team-specific KBO matchup and fortune pages opened from NFC links.
 
 ## Protected Access
 
-Plain `/team/{route-slug}` URLs are blocked by [`middleware.ts`](/c:/Users/I/Desktop/luckmatchday/middleware.ts).
+Plain `/team/{route-slug}` URLs are blocked by [`middleware.ts`](./middleware.ts).
 
 Allowed flow:
 
@@ -19,7 +19,7 @@ Set these before local run or deployment:
 
 ```bash
 LMD_ACCESS_SECRET=replace-this-with-a-long-random-secret
-LMD_BASE_URL=https://luckmatchday.xyz
+LMD_BASE_URL=https://luckymatchday.xyz
 LMD_URL_TOKEN_TTL_MINUTES=0
 LMD_SESSION_TTL_MINUTES=1
 ```

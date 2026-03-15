@@ -20,7 +20,7 @@ export default async function Home({
         <div className="home-glow home-glow--two" />
 
         <div className="home-hero">
-          <p className="home-label">LuckMatchDay</p>
+          <p className="home-label">LuckyMatchDay</p>
           <div className="home-tagmark" aria-hidden="true">
             <LuNfc className="home-tagmark__icon" />
           </div>

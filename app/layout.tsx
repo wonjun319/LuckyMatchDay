@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://luckmatchday.xyz"),
-  title: "LuckMatchDay",
+  metadataBase: new URL("https://luckymatchday.xyz"),
+  title: "LuckyMatchDay",
   description: "NFC keyring KBO luck service"
 };
 
