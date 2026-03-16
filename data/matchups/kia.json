@@ -1,11 +1,33 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-16T01:09:06+09:00",
-  "gameDate": "2026-03-16",
+  "updatedAt": "2026-03-17T01:24:51+09:00",
+  "gameDate": "2026-03-17",
   "opponent": "NC",
   "opponentSlug": "nc",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "away",
+      "score": "3-4",
+      "stadium": "창원",
+      "winningPitcher": "구창모",
+      "losingPitcher": "황동하",
+      "savePitcher": "류진욱",
+      "gameId": "20260316HTNC0",
+      "standoutHitter": {
+        "name": "김규성",
+        "stat": "9.3%(1타수 0득점 0안타 0타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "김기훈",
+        "stat": "2",
+        "rank": 2
+      }
+    },
     {
       "date": "2025-09-29",
       "result": "L",
@@ -203,33 +225,11 @@
         "stat": "9회초 2루수 플라이 아웃승리확률85.3% → 100%",
         "rank": 1
       }
-    },
-    {
-      "date": "2025-06-15",
-      "result": "W",
-      "opponent": "NC",
-      "homeAway": "away",
-      "score": "4-2",
-      "stadium": "창원",
-      "winningPitcher": "네일",
-      "losingPitcher": "로건",
-      "savePitcher": "정해영",
-      "gameId": "20250615HTNC0",
-      "standoutHitter": {
-        "name": "최형우",
-        "stat": "13.4%(3타수 1득점 1안타 3타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "조상우",
-        "stat": "8회말 중견수 플라이 아웃승리확률75.4% → 91.1%",
-        "rank": 1
-      }
     }
   ],
   "summary": {
-    "wins": 4,
-    "losses": 6,
+    "wins": 3,
+    "losses": 7,
     "draws": 0
   }
 }

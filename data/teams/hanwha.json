@@ -1,8 +1,30 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-03-16T01:09:31+09:00",
+  "updatedAt": "2026-03-17T01:25:20+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "두산",
+      "homeAway": "home",
+      "score": "4-8",
+      "stadium": "대전",
+      "winningPitcher": "박신지",
+      "losingPitcher": "박상원",
+      "savePitcher": "",
+      "gameId": "20260316OBHH0",
+      "standoutHitter": {
+        "name": "손아섭",
+        "stat": "19.3%(3타수 1득점 2안타 2타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "이상규",
+        "stat": "6회초 삼진 아웃승리확률52% → 63.9%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "문동주",
         "stat": "1회말 삼진 아웃승리확률37.4% → 42.1%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-10-24",
-      "result": "W",
-      "opponent": "삼성",
-      "homeAway": "home",
-      "score": "11-2",
-      "stadium": "대전",
-      "winningPitcher": "폰세",
-      "losingPitcher": "최원태",
-      "savePitcher": "와이스",
-      "gameId": "20251024SSHH0",
-      "standoutHitter": {
-        "name": "채은성",
-        "stat": "15.8%(4타수 1득점 3안타 5타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "폰세",
-        "stat": "1회초 포수 스트라이크 낫 아웃 (포수->1루수 1루 터치아웃)승리확률48.2% → 55.1%",
         "rank": 1
       }
     }

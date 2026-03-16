@@ -1,8 +1,30 @@
 {
   "team": "LG Twins",
   "slug": "lg",
-  "updatedAt": "2026-03-16T01:09:08+09:00",
+  "updatedAt": "2026-03-17T01:24:53+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "5-3",
+      "stadium": "수원",
+      "winningPitcher": "웰스",
+      "losingPitcher": "임준형",
+      "savePitcher": "장현식",
+      "gameId": "20260316LGKT0",
+      "standoutHitter": {
+        "name": "추세현",
+        "stat": "21.1%(4타수 2득점 3안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "허준혁",
+        "stat": "7회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률72% → 91.3%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "L",

@@ -1,11 +1,33 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-16T01:09:28+09:00",
-  "gameDate": "2026-03-16",
+  "updatedAt": "2026-03-17T01:25:18+09:00",
+  "gameDate": "2026-03-17",
   "opponent": "키움",
   "opponentSlug": "kiwoom",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "12-1",
+      "stadium": "사직",
+      "winningPitcher": "나균안",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260316WOLT0",
+      "standoutHitter": {
+        "name": "한태양",
+        "stat": "9.3%(2타수 2득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "나균안",
+        "stat": "2회초 2루수 플라이 아웃승리확률51.3% → 59%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-20",
       "result": "L",
@@ -194,36 +216,14 @@
       "savePitcher": "원종현",
       "gameId": "20250604WOLT0",
       "standoutHitter": {
-        "name": "전준우",
-        "stat": "18.9%(4타수 1득점 2안타 0타점)",
+        "name": "레이예스",
+        "stat": "18.9%(4타수 3득점 3안타 0타점)",
         "rank": 2
       },
       "standoutPitcher": {
         "name": "박세웅",
         "stat": "4회초 삼진 아웃승리확률60.6% → 68.4%",
         "rank": 5
-      }
-    },
-    {
-      "date": "2025-06-03",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "home",
-      "score": "8-0",
-      "stadium": "사직",
-      "winningPitcher": "감보아",
-      "losingPitcher": "김연주",
-      "savePitcher": "",
-      "gameId": "20250603WOLT0",
-      "standoutHitter": {
-        "name": "레이예스",
-        "stat": "12.8%(3타수 2득점 3안타 3타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "감보아",
-        "stat": "2회초 유격수 플라이 아웃승리확률81.6% → 85.6%",
-        "rank": 2
       }
     }
   ],

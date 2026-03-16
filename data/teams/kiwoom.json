@@ -1,8 +1,30 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-16T01:09:43+09:00",
+  "updatedAt": "2026-03-17T01:25:31+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "1-12",
+      "stadium": "사직",
+      "winningPitcher": "나균안",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260316WOLT0",
+      "standoutHitter": {
+        "name": "어준서",
+        "stat": "5.2%(1타수 0득점 1안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "와일스",
+        "stat": "1회말 삼진 아웃승리확률39.9% → 43.9%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",

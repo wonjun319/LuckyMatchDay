@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-16T01:09:25+09:00",
+  "updatedAt": "2026-03-17T01:25:14+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "12-1",
+      "stadium": "사직",
+      "winningPitcher": "나균안",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260316WOLT0",
+      "standoutHitter": {
+        "name": "한태양",
+        "stat": "9.3%(2타수 2득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "나균안",
+        "stat": "2회초 2루수 플라이 아웃승리확률51.3% → 59%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",

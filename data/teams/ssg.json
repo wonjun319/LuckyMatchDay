@@ -1,8 +1,30 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-03-16T01:09:13+09:00",
+  "updatedAt": "2026-03-17T01:24:57+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "삼성",
+      "homeAway": "home",
+      "score": "0-8",
+      "stadium": "문학",
+      "winningPitcher": "최원태",
+      "losingPitcher": "전영준",
+      "savePitcher": "",
+      "gameId": "20260316SSSK0",
+      "standoutHitter": {
+        "name": "홍대인",
+        "stat": "3.5%(2타수 0득점 1안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "전영준",
+        "stat": "3회초 삼진 아웃승리확률39.9% → 42.3%",
+        "rank": 5
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "L",

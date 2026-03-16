@@ -1,11 +1,33 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-03-16T01:09:24+09:00",
-  "gameDate": "2026-03-16",
+  "updatedAt": "2026-03-17T01:25:13+09:00",
+  "gameDate": "2026-03-17",
   "opponent": "SSG",
   "opponentSlug": "ssg",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "SSG",
+      "homeAway": "away",
+      "score": "8-0",
+      "stadium": "문학",
+      "winningPitcher": "최원태",
+      "losingPitcher": "전영준",
+      "savePitcher": "",
+      "gameId": "20260316SSSK0",
+      "standoutHitter": {
+        "name": "이재현",
+        "stat": "13.8%(3타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "최원태",
+        "stat": "3회말 삼진 아웃승리확률63.6% → 67.4%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-10-14",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "최원태",
         "stat": "4회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률46.4% → 55%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "result": "W",
-      "opponent": "SSG",
-      "homeAway": "home",
-      "score": "9-0",
-      "stadium": "대구",
-      "winningPitcher": "가라비토",
-      "losingPitcher": "김건우",
-      "savePitcher": "",
-      "gameId": "20250723SKSS0",
-      "standoutHitter": {
-        "name": "디아즈",
-        "stat": "8.7%(4타수 2득점 3안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "가라비토",
-        "stat": "2회초 삼진 아웃승리확률52.2% → 55.4%",
-        "rank": 4
       }
     }
   ],

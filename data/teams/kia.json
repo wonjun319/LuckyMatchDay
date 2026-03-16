@@ -1,8 +1,30 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-16T01:08:34+09:00",
+  "updatedAt": "2026-03-17T01:24:30+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "away",
+      "score": "3-4",
+      "stadium": "창원",
+      "winningPitcher": "구창모",
+      "losingPitcher": "황동하",
+      "savePitcher": "류진욱",
+      "gameId": "20260316HTNC0",
+      "standoutHitter": {
+        "name": "김규성",
+        "stat": "9.3%(1타수 0득점 0안타 0타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "김기훈",
+        "stat": "2",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",

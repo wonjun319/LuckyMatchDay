@@ -1,8 +1,30 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-03-16T01:09:39+09:00",
+  "updatedAt": "2026-03-17T01:25:27+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "4-3",
+      "stadium": "창원",
+      "winningPitcher": "구창모",
+      "losingPitcher": "황동하",
+      "savePitcher": "류진욱",
+      "gameId": "20260316HTNC0",
+      "standoutHitter": {
+        "name": "오장한",
+        "stat": "11.1%(1타수 1득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "정구범",
+        "stat": "7회초 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률61.5% → 77.5%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "L",

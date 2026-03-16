@@ -1,11 +1,33 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-03-16T01:09:15+09:00",
-  "gameDate": "2026-03-16",
+  "updatedAt": "2026-03-17T01:24:58+09:00",
+  "gameDate": "2026-03-17",
   "opponent": "삼성",
   "opponentSlug": "samsung",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "삼성",
+      "homeAway": "home",
+      "score": "0-8",
+      "stadium": "문학",
+      "winningPitcher": "최원태",
+      "losingPitcher": "전영준",
+      "savePitcher": "",
+      "gameId": "20260316SSSK0",
+      "standoutHitter": {
+        "name": "홍대인",
+        "stat": "3.5%(2타수 0득점 1안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "전영준",
+        "stat": "3회초 삼진 아웃승리확률39.9% → 42.3%",
+        "rank": 5
+      }
+    },
     {
       "date": "2025-10-14",
       "result": "L",
@@ -202,24 +224,6 @@
         "name": "노경은",
         "stat": "8회말 삼진 아웃승리확률57.5% → 66%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "result": "L",
-      "opponent": "삼성",
-      "homeAway": "away",
-      "score": "0-9",
-      "stadium": "대구",
-      "winningPitcher": "가라비토",
-      "losingPitcher": "김건우",
-      "savePitcher": "",
-      "gameId": "20250723SKSS0",
-      "standoutHitter": null,
-      "standoutPitcher": {
-        "name": "박시후",
-        "stat": "3회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률19.6% → 26.6%",
-        "rank": 1
       }
     }
   ],

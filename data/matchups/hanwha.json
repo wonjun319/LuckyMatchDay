@@ -1,11 +1,33 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-03-16T01:09:33+09:00",
-  "gameDate": "2026-03-16",
+  "updatedAt": "2026-03-17T01:25:22+09:00",
+  "gameDate": "2026-03-17",
   "opponent": "두산",
   "opponentSlug": "doosan",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "두산",
+      "homeAway": "home",
+      "score": "4-8",
+      "stadium": "대전",
+      "winningPitcher": "박신지",
+      "losingPitcher": "박상원",
+      "savePitcher": "",
+      "gameId": "20260316OBHH0",
+      "standoutHitter": {
+        "name": "손아섭",
+        "stat": "19.3%(3타수 1득점 2안타 2타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "이상규",
+        "stat": "6회초 삼진 아웃승리확률52% → 63.9%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-25",
       "result": "L",
@@ -203,33 +225,11 @@
         "stat": "3회초 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률80.8% → 87.4%",
         "rank": 1
       }
-    },
-    {
-      "date": "2025-06-10",
-      "result": "W",
-      "opponent": "두산",
-      "homeAway": "home",
-      "score": "6-2",
-      "stadium": "대전",
-      "winningPitcher": "와이스",
-      "losingPitcher": "콜어빈",
-      "savePitcher": "김서현",
-      "gameId": "20250610OBHH0",
-      "standoutHitter": {
-        "name": "노시환",
-        "stat": "7.9%(4타수 1득점 1안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "와이스",
-        "stat": "7회초 2루수 인필드플라이 아웃승리확률52.2% → 61.5%",
-        "rank": 1
-      }
     }
   ],
   "summary": {
-    "wins": 4,
-    "losses": 5,
+    "wins": 3,
+    "losses": 6,
     "draws": 1
   }
 }

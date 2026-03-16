@@ -1,8 +1,30 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-03-16T01:09:16+09:00",
+  "updatedAt": "2026-03-17T01:24:59+09:00",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "한화",
+      "homeAway": "away",
+      "score": "8-4",
+      "stadium": "대전",
+      "winningPitcher": "박신지",
+      "losingPitcher": "박상원",
+      "savePitcher": "",
+      "gameId": "20260316OBHH0",
+      "standoutHitter": {
+        "name": "강승호",
+        "stat": "26.7%(2타수 1득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "최민석",
+        "stat": "2회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률30.5% → 40.1%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",

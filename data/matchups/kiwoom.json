@@ -1,11 +1,33 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-16T01:09:46+09:00",
-  "gameDate": "2026-03-16",
+  "updatedAt": "2026-03-17T01:25:32+09:00",
+  "gameDate": "2026-03-17",
   "opponent": "롯데",
   "opponentSlug": "lotte",
   "last10": [
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "1-12",
+      "stadium": "사직",
+      "winningPitcher": "나균안",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260316WOLT0",
+      "standoutHitter": {
+        "name": "어준서",
+        "stat": "5.2%(1타수 0득점 1안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "와일스",
+        "stat": "1회말 삼진 아웃승리확률39.9% → 43.9%",
+        "rank": 3
+      }
+    },
     {
       "date": "2025-09-20",
       "result": "W",
@@ -201,28 +223,6 @@
       "standoutPitcher": {
         "name": "원종현",
         "stat": "8회말 유격수 라인드라이브 아웃승리확률75.4% → 91.1%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-03",
-      "result": "L",
-      "opponent": "롯데",
-      "homeAway": "away",
-      "score": "0-8",
-      "stadium": "사직",
-      "winningPitcher": "감보아",
-      "losingPitcher": "김연주",
-      "savePitcher": "",
-      "gameId": "20250603WOLT0",
-      "standoutHitter": {
-        "name": "오선진",
-        "stat": "1",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "김연주",
-        "stat": "1회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률12.5% → 16.8%",
         "rank": 1
       }
     }
