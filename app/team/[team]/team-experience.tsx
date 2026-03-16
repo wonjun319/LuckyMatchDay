@@ -96,7 +96,7 @@ export function TeamExperience({
                       alt={`${teamName} 오늘의 운세 보기`}
                       fill
                       className="fortune-trigger__image"
-                      sizes="(max-width: 720px) 68vw, 280px"
+                      sizes="(max-width: 720px) 72vw, 300px"
                     />
                   </span>
                 ) : (
@@ -126,7 +126,7 @@ export function TeamExperience({
             ) : (
               <div className="loading-orb" />
             )}
-            <h1>오늘의 기운을 읽는 중</h1>
+            <h1>오늘의 <br/>기운을 읽는 중</h1>
             <p className="hero-hint">
               최근 흐름과 점수의 결을 바탕으로
               <br />
