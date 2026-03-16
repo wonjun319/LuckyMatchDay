@@ -3,6 +3,7 @@
 import Image from "next/image";
 import type { CSSProperties } from "react";
 import { startTransition, useEffect, useState } from "react";
+import type { FortuneScores, KeyPlayerSummary } from "@/lib/fortune";
 import { getDisplayNameFromTeamName, getTeamDisplayName } from "@/lib/team-display";
 import type { LeagueStandingsRecord, MatchRecord, TeamSlug } from "@/lib/types";
 
@@ -13,6 +14,9 @@ type TeamExperienceProps = {
   introImageSrc: string | null;
   loadingImageSrc: string | null;
   fortune: string;
+  fortuneHeadline: string;
+  fortuneScores: FortuneScores;
+  keyPlayer: KeyPlayerSummary;
   leagueStandings: LeagueStandingsRecord | null;
   summary: {
     wins: number;
@@ -47,6 +51,63 @@ function getOpponentLabel(game: MatchRecord) {
   return `${prefix} ${getDisplayNameFromTeamName(game.opponent)}`;
 }
 
+function formatStandingsUpdatedLabel(updatedAt: string) {
+  const date = new Date(updatedAt);
+
+  if (Number.isNaN(date.getTime())) {
+    return updatedAt;
+  }
+
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  }).format(date);
+}
+
+function ScoreRing({
+  score,
+  label,
+  size = "default"
+}: {
+  score: number;
+  label: string;
+  size?: "default" | "large";
+}) {
+  const ringStyle = {
+    "--score-angle": `${score * 3.6}deg`
+  } as CSSProperties;
+
+  return (
+    <div
+      className={`score-ring ${size === "large" ? "score-ring--large" : ""}`}
+      style={ringStyle}
+      role="img"
+      aria-label={`${label} ${score}점`}
+    >
+      <div className="score-ring__inner">
+        <strong className="score-ring__value">{score}</strong>
+      </div>
+    </div>
+  );
+}
+
+function FortuneScoreCard({
+  label,
+  score
+}: {
+  label: string;
+  score: number;
+}) {
+  return (
+    <article className="fortune-score-card">
+      <ScoreRing score={score} label={label} />
+      <span className="fortune-score-card__label">{label}</span>
+    </article>
+  );
+}
+
 export function TeamExperience({
   teamName,
   teamSlug,
@@ -54,6 +115,9 @@ export function TeamExperience({
   introImageSrc,
   loadingImageSrc,
   fortune,
+  fortuneHeadline,
+  fortuneScores,
+  keyPlayer,
   leagueStandings,
   summary,
   matchupSummary,
@@ -105,7 +169,7 @@ export function TeamExperience({
               </span>
               <span className="fortune-trigger__caption">오늘 운세 보기</span>
             </button>
-            <p className="hero-hint">{teamName}의 오늘 흐름을 확인해보세요.</p>
+            <p className="hero-hint">그림을 클릭해서 오늘의 운세를 확인해보세요.</p>
           </div>
         ) : null}
 
@@ -143,10 +207,28 @@ export function TeamExperience({
         {view === "result" ? (
           <div className="result-stack">
             <section className="panel panel--fortune">
-              <p className="hero-label">오늘의 운세</p>
-              <h1>{teamName}</h1>
+              <div className="fortune-overview">
+                <article className="today-score-card">
+                  <span className="summary-card__label">오늘의 점수</span>
+                  <ScoreRing score={fortuneScores.overall} label="오늘의 점수" size="large" />
+                </article>
+                <div className="fortune-overview__body">
+                  <h1>{teamName}</h1>
+                  <p className="fortune-highlight">{fortuneHeadline}</p>
+                </div>
+              </div>
+              <div className="fortune-score-grid">
+                <FortuneScoreCard label="타격" score={fortuneScores.batting} />
+                <FortuneScoreCard label="수비" score={fortuneScores.defense} />
+                <FortuneScoreCard label="승리" score={fortuneScores.victory} />
+              </div>
               <p className="fortune-copy">{fortune}</p>
               <div className="summary-grid">
+                <article className="summary-card">
+                  <span className="summary-card__label">키플레이어</span>
+                  <strong className="summary-card__value">{keyPlayer.name}</strong>
+                  <p className="summary-card__copy">{keyPlayer.line}</p>
+                </article>
                 <article className="summary-card">
                   <span className="summary-card__label">전적</span>
                   <strong className="summary-card__value">
@@ -162,17 +244,57 @@ export function TeamExperience({
               ) : null}
             </section>
 
+            {leagueStandings && leagueStandings.standings.length > 0 ? (
+              <section className="panel panel--matches">
+                <div className="section-head">
+                  <div className="stack">
+                    <h3>리그 순위</h3>
+                  </div>
+                  <p className="muted">{formatStandingsUpdatedLabel(leagueStandings.updatedAt)} 기준</p>
+                </div>
+
+                <div className="match-table-wrap">
+                  <table className="match-table league-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">팀</th>
+                        <th scope="col">승률</th>
+                        <th scope="col">게임차</th>
+                        <th scope="col">승</th>
+                        <th scope="col">무</th>
+                        <th scope="col">패</th>
+                        <th scope="col">경기</th>
+                        <th scope="col">연속</th>
+                        <th scope="col">최근 10경기</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {leagueStandings.standings.map((standing) => (
+                        <tr
+                          key={standing.team}
+                          className={standing.team === teamSlug ? "league-table__row--active" : undefined}
+                        >
+                          <td className="league-table__team">{getTeamDisplayName(standing.team)}</td>
+                          <td>{standing.pct}</td>
+                          <td>{standing.gamesBehind}</td>
+                          <td>{standing.wins}</td>
+                          <td>{standing.draws}</td>
+                          <td>{standing.losses}</td>
+                          <td>{standing.games}</td>
+                          <td>{standing.streak}</td>
+                          <td>{standing.recent10}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            ) : null}
+
             <section className="panel panel--matches">
               <div className="section-head">
                 <div className="stack">
                   <h3>최근 경기</h3>
-                </div>
-                <div className="badge-row">
-                  {games.map((game) => (
-                    <span key={game.gameId} className={`badge badge--${game.result.toLowerCase()}`}>
-                      {getResultLabel(game.result)}
-                    </span>
-                  ))}
                 </div>
               </div>
 
@@ -180,7 +302,6 @@ export function TeamExperience({
                 <table className="match-table recent-match-table">
                   <thead>
                     <tr>
-                      <th scope="col">날짜</th>
                       <th scope="col">결과</th>
                       <th scope="col">상대</th>
                       <th scope="col">스코어</th>
@@ -188,12 +309,12 @@ export function TeamExperience({
                       <th scope="col">승리투수</th>
                       <th scope="col">패전투수</th>
                       <th scope="col">세이브</th>
+                      <th scope="col">날짜</th>
                     </tr>
                   </thead>
                   <tbody>
                     {games.map((game) => (
                       <tr key={game.gameId}>
-                        <td className="match-table__date">{game.date}</td>
                         <td>
                           <span className={`result-pill result-pill--${game.result.toLowerCase()}`}>
                             {getResultLabel(game.result)}
@@ -205,61 +326,13 @@ export function TeamExperience({
                         <td>{game.winningPitcher || "-"}</td>
                         <td>{game.losingPitcher || "-"}</td>
                         <td>{game.savePitcher || "-"}</td>
+                        <td className="match-table__date">{game.date}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
             </section>
-
-            {leagueStandings && leagueStandings.standings.length > 0 ? (
-              <section className="panel panel--matches">
-                <div className="section-head">
-                  <div className="stack">
-                    <h3>리그 순위</h3>
-                    <p className="muted">기준일 {leagueStandings.basisDate}</p>
-                  </div>
-                </div>
-
-                <div className="match-table-wrap">
-                  <table className="match-table league-table">
-                    <thead>
-                      <tr>
-                        <th scope="col">순위</th>
-                        <th scope="col">팀</th>
-                        <th scope="col">경기</th>
-                        <th scope="col">승</th>
-                        <th scope="col">패</th>
-                        <th scope="col">무</th>
-                        <th scope="col">승률</th>
-                        <th scope="col">게임차</th>
-                        <th scope="col">최근 10경기</th>
-                        <th scope="col">연속</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {leagueStandings.standings.map((standing) => (
-                        <tr
-                          key={standing.team}
-                          className={standing.team === teamSlug ? "league-table__row--active" : undefined}
-                        >
-                          <td>{standing.rank}</td>
-                          <td className="league-table__team">{getTeamDisplayName(standing.team)}</td>
-                          <td>{standing.games}</td>
-                          <td>{standing.wins}</td>
-                          <td>{standing.losses}</td>
-                          <td>{standing.draws}</td>
-                          <td>{standing.pct}</td>
-                          <td>{standing.gamesBehind}</td>
-                          <td>{standing.recent10}</td>
-                          <td>{standing.streak}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-            ) : null}
           </div>
         ) : null}
       </section>

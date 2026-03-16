@@ -1,16 +1,16 @@
 import type { TeamSlug } from "@/lib/types";
 
 const TEAM_DISPLAY_NAMES: Record<TeamSlug, string> = {
-  hanwha: "대전독수리",
-  kia: "광주호랑이",
-  lg: "서울쌍둥이",
-  doosan: "서울곰",
-  samsung: "대구사자",
-  lotte: "부산갈매기",
-  ssg: "인천상륙자",
-  kt: "수원마법사",
-  nc: "창원공룡",
-  kiwoom: "서울영웅"
+  hanwha: "이글스",
+  kia: "타이거즈",
+  lg: "트윈스",
+  doosan: "베어스",
+  samsung: "라이온즈",
+  lotte: "자이언츠",
+  ssg: "랜더스",
+  kt: "위즈",
+  nc: "다이노스",
+  kiwoom: "히어로즈"
 };
 
 const TEAM_NAME_ALIASES: Record<string, TeamSlug> = {

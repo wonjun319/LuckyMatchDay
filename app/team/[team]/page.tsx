@@ -1,5 +1,10 @@
 import { notFound } from "next/navigation";
-import { buildFortune } from "@/lib/fortune";
+import {
+  buildFortuneNarrative,
+  buildFortuneScores,
+  getFortuneLeadSentence,
+  getKeyPlayerSummary
+} from "@/lib/fortune";
 import { getLeagueStandingsRecord, getTeamMatchupRecord, getTeamRecord } from "@/lib/data";
 import { TeamExperience } from "@/app/team/[team]/team-experience";
 import { getDisplayNameFromTeamName } from "@/lib/team-display";
@@ -30,7 +35,10 @@ export default async function TeamPage({
     notFound();
   }
 
-  const fortune = buildFortune(record, matchup);
+  const fortune = buildFortuneNarrative(record, matchup);
+  const fortuneHeadline = getFortuneLeadSentence(fortune);
+  const fortuneScores = buildFortuneScores(record);
+  const keyPlayer = getKeyPlayerSummary(record);
   const wins = record.last10.filter((game) => game.result === "W").length;
   const losses = record.last10.filter((game) => game.result === "L").length;
   const draws = record.last10.filter((game) => game.result === "D").length;
@@ -43,6 +51,9 @@ export default async function TeamPage({
       introImageSrc={visuals.introImageSrc}
       loadingImageSrc={visuals.loadingImageSrc}
       fortune={fortune}
+      fortuneHeadline={fortuneHeadline}
+      fortuneScores={fortuneScores}
+      keyPlayer={keyPlayer}
       leagueStandings={leagueStandings}
       summary={{
         wins,

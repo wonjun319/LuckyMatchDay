@@ -1,8 +1,9 @@
+import { getDisplayNameFromTeamName } from "@/lib/team-display";
 import type { MatchRecord, MatchupRecord, TeamRecord } from "@/lib/types";
 
 type FortuneTone = "dominant" | "slugfest" | "pitching" | "danger" | "balanced";
 
-type KeyPlayerSummary = {
+export type KeyPlayerSummary = {
   name: string;
   line: string;
 };
@@ -13,8 +14,19 @@ type FortunePoolParts = {
   closings: string[];
 };
 
+export type FortuneScores = {
+  overall: number;
+  batting: number;
+  defense: number;
+  victory: number;
+};
+
 function buildVariants(stems: string[], tails: string[]) {
   return stems.flatMap((stem) => tails.map((tail) => `${stem}${tail}`));
+}
+
+function clamp(value: number, min: number, max: number) {
+  return Math.min(Math.max(value, min), max);
 }
 
 const OPENING_TAILS = [
@@ -342,6 +354,25 @@ function summarizeRuns(games: MatchRecord[]) {
   );
 }
 
+function getWeightedAverage(games: MatchRecord[], selector: (game: MatchRecord) => number) {
+  const sourceGames = games.slice(0, 5);
+
+  if (sourceGames.length === 0) {
+    return null;
+  }
+
+  let total = 0;
+  let totalWeight = 0;
+
+  sourceGames.forEach((game, index) => {
+    const weight = sourceGames.length - index;
+    total += selector(game) * weight;
+    totalWeight += weight;
+  });
+
+  return totalWeight > 0 ? total / totalWeight : null;
+}
+
 function getRecentStreak(games: MatchRecord[]) {
   const latest = games[0];
 
@@ -417,6 +448,10 @@ function hashString(input: string) {
   return hash;
 }
 
+function pickNumericValue(max: number, seed: string, salt: string) {
+  return hashString(`${seed}:${salt}`) % (max + 1);
+}
+
 function pickFromPool(pool: string[], seed: string, salt: string) {
   return pool[hashString(`${seed}:${salt}`) % pool.length];
 }
@@ -425,7 +460,7 @@ function getRecentHitters(record: TeamRecord) {
   return record.last10.slice(0, 5).flatMap((game) => (game.standoutHitter ? [game.standoutHitter] : []));
 }
 
-function getKeyPlayerSummary(record: TeamRecord): KeyPlayerSummary {
+export function getKeyPlayerSummary(record: TeamRecord): KeyPlayerSummary {
   const hitters = getRecentHitters(record);
   const counts = new Map<string, { count: number; latestStat: string | null }>();
 
@@ -451,7 +486,7 @@ function getKeyPlayerSummary(record: TeamRecord): KeyPlayerSummary {
 
   if (!bestName) {
     return {
-      name: `${record.team} 타선`,
+      name: `${getDisplayNameFromTeamName(record.team)} 타선`,
       line: "지금은 특정 한 명보다 여러 타자가 번갈아 흐름을 흔들며 미묘한 균형을 만들고 있습니다."
     };
   }
@@ -495,10 +530,10 @@ function pickFortuneBody(record: TeamRecord, tone: FortuneTone, dayKey = getCurr
     pickFromPool(pools.openings, seed, "opening"),
     pickFromPool(pools.omens, seed, "omen"),
     pickFromPool(pools.closings, seed, "closing")
-  ].join("\n");
+  ].join("\n\n");
 }
 
-export function buildFortune(
+export function buildFortuneNarrative(
   record: TeamRecord,
   _matchup: MatchupRecord | null = null,
   dayKey = getCurrentKstFortuneKey()
@@ -506,9 +541,60 @@ export function buildFortune(
   const tone = getFortuneTone(record);
   const streakLine = getStreakLine(record);
   const body = pickFortuneBody(record, tone, dayKey);
+  return [...(streakLine ? [streakLine] : []), body].join("\n\n");
+}
+
+export function buildFortune(
+  record: TeamRecord,
+  matchup: MatchupRecord | null = null,
+  dayKey = getCurrentKstFortuneKey()
+) {
+  const narrative = buildFortuneNarrative(record, matchup, dayKey);
   const keyPlayer = getKeyPlayerSummary(record);
-  const leadLines = [...(streakLine ? [streakLine] : []), body].join("\n");
   const keyPlayerParagraph = [`오늘의 키플레이어는 ${keyPlayer.name}입니다.`, keyPlayer.line].join("\n");
 
-  return [leadLines, keyPlayerParagraph].join("\n\n");
+  return [narrative, keyPlayerParagraph].join("\n\n");
+}
+
+export function getFortuneLeadSentence(fortune: string) {
+  const normalized = fortune.replace(/\s*\n+\s*/g, " ").trim();
+  const match = normalized.match(/^(.+?[.!?])(?:\s|$)/);
+  return (match?.[1] ?? normalized).trim();
+}
+
+export function buildFortuneScores(record: TeamRecord, dayKey = getCurrentKstFortuneKey()): FortuneScores {
+  const battingTrend = getWeightedAverage(record.last10, (game) => parseScore(game.score).teamScore);
+  const defenseTrend = getWeightedAverage(record.last10, (game) => parseScore(game.score).opponentScore);
+  const victoryTrend = getWeightedAverage(record.last10, (game) => {
+    if (game.result === "W") {
+      return 1;
+    }
+
+    if (game.result === "D") {
+      return 0.5;
+    }
+
+    return 0;
+  });
+
+  const battingRecord = battingTrend === null ? 15 : clamp(Math.round((battingTrend / 8) * 30), 0, 30);
+  const defenseRecord =
+    defenseTrend === null ? 15 : clamp(Math.round(((8 - defenseTrend) / 8) * 30), 0, 30);
+  const victoryRecord = victoryTrend === null ? 15 : clamp(Math.round(victoryTrend * 30), 0, 30);
+
+  const seed = `${record.slug}:${record.updatedAt}:${record.last10
+    .map((game) => game.gameId)
+    .join(",")}:${dayKey}`;
+
+  const batting = clamp(battingRecord + pickNumericValue(70, seed, "batting"), 0, 100);
+  const defense = clamp(defenseRecord + pickNumericValue(70, seed, "defense"), 0, 100);
+  const victory = clamp(victoryRecord + pickNumericValue(70, seed, "victory"), 0, 100);
+  const overall = Math.round((batting + defense + victory) / 3);
+
+  return {
+    overall,
+    batting,
+    defense,
+    victory
+  };
 }
