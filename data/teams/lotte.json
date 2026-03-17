@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-17T01:25:14+09:00",
+  "updatedAt": "2026-03-18T01:26:20+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "D",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "4-4",
+      "stadium": "사직",
+      "winningPitcher": "",
+      "losingPitcher": "",
+      "savePitcher": "",
+      "gameId": "20260317WOLT0",
+      "standoutHitter": {
+        "name": "장두성",
+        "stat": "17.4%(3타수 2득점 2안타 0타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "윤성빈",
+        "stat": "8회초 삼진 아웃승리확률47.4% → 61.9%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "W",

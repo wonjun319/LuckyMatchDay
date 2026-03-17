@@ -1,8 +1,30 @@
 {
   "team": "KT Wiz",
   "slug": "kt",
-  "updatedAt": "2026-03-17T01:25:23+09:00",
+  "updatedAt": "2026-03-18T01:26:23+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "8-5",
+      "stadium": "수원",
+      "winningPitcher": "오원석",
+      "losingPitcher": "김진수",
+      "savePitcher": "",
+      "gameId": "20260317LGKT0",
+      "standoutHitter": {
+        "name": "장성우",
+        "stat": "14%(1타수 1득점 1안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "오원석",
+        "stat": "1회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률38.7% → 46.1%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "L",

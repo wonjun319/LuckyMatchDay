@@ -1,8 +1,30 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-17T01:25:31+09:00",
+  "updatedAt": "2026-03-18T01:26:26+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "D",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "4-4",
+      "stadium": "사직",
+      "winningPitcher": "",
+      "losingPitcher": "",
+      "savePitcher": "",
+      "gameId": "20260317WOLT0",
+      "standoutHitter": {
+        "name": "김건희",
+        "stat": "23.9%(1타수 0득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박진형",
+        "stat": "9회말 좌익수 플라이 아웃승리확률38.3% → 50%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "L",

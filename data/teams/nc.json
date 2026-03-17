@@ -1,8 +1,30 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-03-17T01:25:27+09:00",
+  "updatedAt": "2026-03-18T01:26:25+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "3-2",
+      "stadium": "창원",
+      "winningPitcher": "원종해",
+      "losingPitcher": "올러",
+      "savePitcher": "임지민",
+      "gameId": "20260317HTNC0",
+      "standoutHitter": {
+        "name": "한재환",
+        "stat": "10%(1타수 0득점 0안타 0타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "임지민",
+        "stat": "9회초 유격수 병살타 아웃 (유격수->1루수 송구아웃)승리확률81.6% → 100%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "W",

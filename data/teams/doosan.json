@@ -1,8 +1,30 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-03-17T01:24:59+09:00",
+  "updatedAt": "2026-03-18T01:26:16+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "W",
+      "opponent": "한화",
+      "homeAway": "away",
+      "score": "3-2",
+      "stadium": "대전",
+      "winningPitcher": "박치국",
+      "losingPitcher": "박준영",
+      "savePitcher": "김명신",
+      "gameId": "20260317OBHH0",
+      "standoutHitter": {
+        "name": "조수행",
+        "stat": "27.2%(1타수 0득점 0안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박치국",
+        "stat": "8회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률32.8% → 50%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "W",

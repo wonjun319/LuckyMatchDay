@@ -1,8 +1,30 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-03-17T01:24:57+09:00",
+  "updatedAt": "2026-03-18T01:26:15+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "W",
+      "opponent": "삼성",
+      "homeAway": "home",
+      "score": "8-4",
+      "stadium": "문학",
+      "winningPitcher": "베니지아노",
+      "losingPitcher": "이승민",
+      "savePitcher": "김민",
+      "gameId": "20260317SSSK0",
+      "standoutHitter": {
+        "name": "최정",
+        "stat": "26.6%(2타수 1득점 2안타 4타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김민",
+        "stat": "8회초 좌익수 플라이 아웃승리확률78.2% → 86%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "L",
@@ -176,28 +198,6 @@
       "standoutPitcher": {
         "name": "조병현",
         "stat": "9회초 삼진 아웃승리확률53.4% → 65.9%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-10-09",
-      "result": "L",
-      "opponent": "삼성",
-      "homeAway": "home",
-      "score": "2-5",
-      "stadium": "문학",
-      "winningPitcher": "최원태",
-      "losingPitcher": "화이트",
-      "savePitcher": "김재윤",
-      "gameId": "20251009SSSK0",
-      "standoutHitter": {
-        "name": "한유섬",
-        "stat": "5.5%(3타수 0득점 2안타 0타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "화이트",
-        "stat": "2회초 중견수 플라이 아웃승리확률33.4% → 37.9%",
         "rank": 1
       }
     }

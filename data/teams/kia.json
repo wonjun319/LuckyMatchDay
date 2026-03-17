@@ -1,8 +1,30 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-17T01:24:30+09:00",
+  "updatedAt": "2026-03-18T01:26:10+09:00",
   "last10": [
+    {
+      "date": "2026-03-17",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "away",
+      "score": "2-3",
+      "stadium": "창원",
+      "winningPitcher": "원종해",
+      "losingPitcher": "올러",
+      "savePitcher": "임지민",
+      "gameId": "20260317HTNC0",
+      "standoutHitter": {
+        "name": "오선우",
+        "stat": "18.8%(2타수 0득점 1안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "올러",
+        "stat": "5",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-16",
       "result": "L",
