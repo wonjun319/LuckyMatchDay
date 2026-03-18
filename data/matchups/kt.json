@@ -1,14 +1,235 @@
 {
   "team": "KT Wiz",
   "slug": "kt",
-  "updatedAt": "2026-03-18T01:26:23+09:00",
-  "gameDate": "2026-03-18",
-  "opponent": null,
-  "opponentSlug": null,
-  "last10": [],
+  "updatedAt": "2026-03-19T01:26:09+09:00",
+  "gameDate": "2026-03-19",
+  "opponent": "키움",
+  "opponentSlug": "kiwoom",
+  "last10": [
+    {
+      "date": "2025-09-23",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "7-0",
+      "stadium": "수원",
+      "winningPitcher": "오원석",
+      "losingPitcher": "알칸타라",
+      "savePitcher": "",
+      "gameId": "20250923WOKT0",
+      "standoutHitter": {
+        "name": "강백호",
+        "stat": "7.8%(4타수 0득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "오원석",
+        "stat": "3회초 유격수 플라이 아웃승리확률69% → 74.7%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2025-08-17",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "5-3",
+      "stadium": "고척",
+      "winningPitcher": "박영현",
+      "losingPitcher": "윤석원",
+      "savePitcher": "소형준",
+      "gameId": "20250817KTWO0",
+      "standoutHitter": {
+        "name": "김민혁",
+        "stat": "31.1%(4타수 2득점 2안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "이상동",
+        "stat": "6회말 중견수 플라이 아웃승리확률25.8% → 32.8%",
+        "rank": 3
+      }
+    },
+    {
+      "date": "2025-08-16",
+      "result": "L",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "3-4",
+      "stadium": "고척",
+      "winningPitcher": "하영민",
+      "losingPitcher": "헤이수스",
+      "savePitcher": "조영건",
+      "gameId": "20250816KTWO0",
+      "standoutHitter": {
+        "name": "강백호",
+        "stat": "19.1%(4타수 1득점 2안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "헤이수스",
+        "stat": "7",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "result": "L",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "3-7",
+      "stadium": "고척",
+      "winningPitcher": "전준표",
+      "losingPitcher": "소형준",
+      "savePitcher": "",
+      "gameId": "20250815KTWO0",
+      "standoutHitter": {
+        "name": "허경민",
+        "stat": "14.1%(5타수 0득점 2안타 1타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "소형준",
+        "stat": "8회말 우익수 플라이 아웃승리확률32.4% → 38.5%",
+        "rank": 4
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "6-2",
+      "stadium": "수원",
+      "winningPitcher": "고영표",
+      "losingPitcher": "정현우",
+      "savePitcher": "박영현",
+      "gameId": "20250703WOKT0",
+      "standoutHitter": {
+        "name": "안현민",
+        "stat": "13.4%(2타수 2득점 2안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "고영표",
+        "stat": "2회초 삼진 아웃승리확률51.1% → 55.4%",
+        "rank": 2
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "4-2",
+      "stadium": "수원",
+      "winningPitcher": "소형준",
+      "losingPitcher": "하영민",
+      "savePitcher": "박영현",
+      "gameId": "20250702WOKT0",
+      "standoutHitter": {
+        "name": "로하스",
+        "stat": "13.6%(4타수 0득점 1안타 2타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "소형준",
+        "stat": "3회초 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률46.7% → 55.9%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "result": "L",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "3-7",
+      "stadium": "수원",
+      "winningPitcher": "박주성",
+      "losingPitcher": "헤이수스",
+      "savePitcher": "",
+      "gameId": "20250701WOKT0",
+      "standoutHitter": {
+        "name": "안현민",
+        "stat": "2",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "헤이수스",
+        "stat": "1회초 포수 스트라이크 낫 아웃 (포수->1루수 1루 터치아웃)승리확률42.3% → 46.1%",
+        "rank": 2
+      }
+    },
+    {
+      "date": "2025-05-25",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "2-0",
+      "stadium": "고척",
+      "winningPitcher": "소형준",
+      "losingPitcher": "김선기",
+      "savePitcher": "박영현",
+      "gameId": "20250525KTWO0",
+      "standoutHitter": {
+        "name": "황재균",
+        "stat": "6.8%(3타수 0득점 1안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "박영현",
+        "stat": "9회말 좌익수 플라이 아웃승리확률90.1% → 100%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2025-05-24",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "10-4",
+      "stadium": "고척",
+      "winningPitcher": "헤이수스",
+      "losingPitcher": "조영건",
+      "savePitcher": "",
+      "gameId": "20250524KTWO0",
+      "standoutHitter": {
+        "name": "안현민",
+        "stat": "15.3%(4타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "헤이수스",
+        "stat": "1회말 삼진 아웃승리확률68.7% → 73.3%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "7-5",
+      "stadium": "고척",
+      "winningPitcher": "오원석",
+      "losingPitcher": "김윤하",
+      "savePitcher": "박영현",
+      "gameId": "20250523KTWO0",
+      "standoutHitter": {
+        "name": "문상철",
+        "stat": "27.2%(4타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박영현",
+        "stat": "9회말 유격수 플라이 아웃승리확률90.4% → 100%",
+        "rank": 1
+      }
+    }
+  ],
   "summary": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 7,
+    "losses": 3,
     "draws": 0
   }
 }
