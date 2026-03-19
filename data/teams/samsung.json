@@ -1,8 +1,30 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-03-19T01:25:57+09:00",
+  "updatedAt": "2026-03-20T01:21:50+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "NC",
+      "homeAway": "away",
+      "score": "9-4",
+      "stadium": "창원",
+      "winningPitcher": "이승현",
+      "losingPitcher": "이준혁",
+      "savePitcher": "",
+      "gameId": "20260319SSNC0",
+      "standoutHitter": {
+        "name": "디아즈",
+        "stat": "30.7%(3타수 1득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "이승현",
+        "stat": "2회말 2루수 병살타 아웃 (2루수->1루수 송구아웃)승리확률21.3% → 28.3%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "L",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "후라도",
         "stat": "4",
-        "rank": 2
-      }
-    },
-    {
-      "date": "2025-10-19",
-      "result": "W",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "7-3",
-      "stadium": "대전",
-      "winningPitcher": "최원태",
-      "losingPitcher": "와이스",
-      "savePitcher": "",
-      "gameId": "20251019SSHH0",
-      "standoutHitter": {
-        "name": "디아즈",
-        "stat": "12.5%(4타수 1득점 2안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "이호성",
-        "stat": "8회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률94.6% → 98%",
         "rank": 2
       }
     }

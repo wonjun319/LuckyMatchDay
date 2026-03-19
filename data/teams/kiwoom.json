@@ -1,8 +1,30 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-19T01:26:14+09:00",
+  "updatedAt": "2026-03-20T01:22:13+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "11-4",
+      "stadium": "수원",
+      "winningPitcher": "유토",
+      "losingPitcher": "박지훈",
+      "savePitcher": "",
+      "gameId": "20260319WOKT0",
+      "standoutHitter": {
+        "name": "김건희",
+        "stat": "33.1%(3타수 0득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김윤하",
+        "stat": "3회말 삼진 아웃승리확률42.3% → 50%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "D",

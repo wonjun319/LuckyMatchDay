@@ -1,8 +1,30 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-19T01:25:15+09:00",
+  "updatedAt": "2026-03-20T01:20:52+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "L",
+      "opponent": "한화",
+      "homeAway": "away",
+      "score": "5-7",
+      "stadium": "대전",
+      "winningPitcher": "정우주",
+      "losingPitcher": "전상현",
+      "savePitcher": "",
+      "gameId": "20260319HTHH0",
+      "standoutHitter": {
+        "name": "박민",
+        "stat": "47.3%(4타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "홍건희",
+        "stat": "7회말 포수 스트라이크 낫 아웃 (포수 태그아웃)승리확률60.6% → 65.8%",
+        "rank": 4
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "L",

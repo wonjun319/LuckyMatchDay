@@ -1,11 +1,33 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-19T01:26:16+09:00",
-  "gameDate": "2026-03-19",
+  "updatedAt": "2026-03-20T01:22:15+09:00",
+  "gameDate": "2026-03-20",
   "opponent": "KT",
   "opponentSlug": "kt",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "11-4",
+      "stadium": "수원",
+      "winningPitcher": "유토",
+      "losingPitcher": "박지훈",
+      "savePitcher": "",
+      "gameId": "20260319WOKT0",
+      "standoutHitter": {
+        "name": "김건희",
+        "stat": "33.1%(3타수 0득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김윤하",
+        "stat": "3회말 삼진 아웃승리확률42.3% → 50%",
+        "rank": 2
+      }
+    },
     {
       "date": "2025-09-23",
       "result": "L",
@@ -203,33 +225,11 @@
         "stat": "5회초 3루수 병살타 아웃 (3루수->1루수 송구아웃)승리확률6% → 8.7%",
         "rank": 3
       }
-    },
-    {
-      "date": "2025-05-23",
-      "result": "L",
-      "opponent": "KT",
-      "homeAway": "home",
-      "score": "5-7",
-      "stadium": "고척",
-      "winningPitcher": "오원석",
-      "losingPitcher": "김윤하",
-      "savePitcher": "박영현",
-      "gameId": "20250523KTWO0",
-      "standoutHitter": {
-        "name": "김태진",
-        "stat": "12%(2타수 1득점 2안타 0타점)",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "김윤하",
-        "stat": "5회초 좌익수 파울플라이 아웃승리확률60.8% → 65.3%",
-        "rank": 5
-      }
     }
   ],
   "summary": {
-    "wins": 3,
-    "losses": 7,
+    "wins": 4,
+    "losses": 6,
     "draws": 0
   }
 }

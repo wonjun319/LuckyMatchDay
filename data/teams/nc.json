@@ -1,8 +1,30 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-03-19T01:26:11+09:00",
+  "updatedAt": "2026-03-20T01:22:08+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "L",
+      "opponent": "삼성",
+      "homeAway": "home",
+      "score": "4-9",
+      "stadium": "창원",
+      "winningPitcher": "이승현",
+      "losingPitcher": "이준혁",
+      "savePitcher": "",
+      "gameId": "20260319SSNC0",
+      "standoutHitter": {
+        "name": "박건우",
+        "stat": "11.6%(2타수 0득점 1안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "토다",
+        "stat": "3회초 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률69.2% → 74.7%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "W",

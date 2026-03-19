@@ -1,8 +1,30 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-03-19T01:25:53+09:00",
+  "updatedAt": "2026-03-20T01:21:45+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "L",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "3-10",
+      "stadium": "사직",
+      "winningPitcher": "김진욱",
+      "losingPitcher": "잭로그",
+      "savePitcher": "",
+      "gameId": "20260319OBLT0",
+      "standoutHitter": {
+        "name": "카메론",
+        "stat": "3",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "잭로그",
+        "stat": "2회말 삼진 아웃승리확률17.5% → 21%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "W",

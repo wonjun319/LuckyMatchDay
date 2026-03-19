@@ -1,11 +1,33 @@
 {
   "team": "LG Twins",
   "slug": "lg",
-  "updatedAt": "2026-03-19T01:25:48+09:00",
-  "gameDate": "2026-03-19",
+  "updatedAt": "2026-03-20T01:21:38+09:00",
+  "gameDate": "2026-03-20",
   "opponent": "SSG",
   "opponentSlug": "ssg",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "SSG",
+      "homeAway": "away",
+      "score": "12-7",
+      "stadium": "문학",
+      "winningPitcher": "김영우",
+      "losingPitcher": "이기순",
+      "savePitcher": "",
+      "gameId": "20260319LGSK0",
+      "standoutHitter": {
+        "name": "오스틴",
+        "stat": "27%(3타수 1득점 2안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "함덕주",
+        "stat": "8회말 삼진 아웃승리확률88.8% → 92.9%",
+        "rank": 3
+      }
+    },
     {
       "date": "2025-09-07",
       "result": "L",
@@ -201,28 +223,6 @@
       "standoutPitcher": {
         "name": "김진성",
         "stat": "9회말 삼진 아웃승리확률34.1% → 40.4%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-05-23",
-      "result": "W",
-      "opponent": "SSG",
-      "homeAway": "away",
-      "score": "3-2",
-      "stadium": "문학",
-      "winningPitcher": "손주영",
-      "losingPitcher": "화이트",
-      "savePitcher": "박명근",
-      "gameId": "20250523LGSK0",
-      "standoutHitter": {
-        "name": "박해민",
-        "stat": "9.2%(3타수 1득점 1안타 0타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "박명근",
-        "stat": "9회말 삼진 아웃승리확률79% → 90.1%",
         "rank": 1
       }
     }

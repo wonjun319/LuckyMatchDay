@@ -1,11 +1,33 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-19T01:26:02+09:00",
-  "gameDate": "2026-03-19",
+  "updatedAt": "2026-03-20T01:21:56+09:00",
+  "gameDate": "2026-03-20",
   "opponent": "두산",
   "opponentSlug": "doosan",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "두산",
+      "homeAway": "home",
+      "score": "10-3",
+      "stadium": "사직",
+      "winningPitcher": "김진욱",
+      "losingPitcher": "잭로그",
+      "savePitcher": "",
+      "gameId": "20260319OBLT0",
+      "standoutHitter": {
+        "name": "손호영",
+        "stat": "13.9%(4타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김진욱",
+        "stat": "1회초 중견수 플라이 아웃승리확률50% → 52.3%",
+        "rank": 2
+      }
+    },
     {
       "date": "2025-09-28",
       "result": "L",
@@ -203,33 +225,11 @@
         "stat": "5회말 좌익수 파울플라이 아웃승리확률56.5% → 60.8%",
         "rank": 2
       }
-    },
-    {
-      "date": "2025-06-06",
-      "result": "L",
-      "opponent": "두산",
-      "homeAway": "away",
-      "score": "2-5",
-      "stadium": "잠실",
-      "winningPitcher": "잭로그",
-      "losingPitcher": "나균안",
-      "savePitcher": "양재훈",
-      "gameId": "20250606LTOB0",
-      "standoutHitter": {
-        "name": "레이예스",
-        "stat": "6.8%(4타수 1득점 2안타 2타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "나균안",
-        "stat": "4회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률23.3% → 27.2%",
-        "rank": 3
-      }
     }
   ],
   "summary": {
-    "wins": 4,
-    "losses": 5,
+    "wins": 5,
+    "losses": 4,
     "draws": 1
   }
 }

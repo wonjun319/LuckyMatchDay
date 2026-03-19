@@ -1,8 +1,30 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-03-19T01:26:04+09:00",
+  "updatedAt": "2026-03-20T01:21:59+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "7-5",
+      "stadium": "대전",
+      "winningPitcher": "정우주",
+      "losingPitcher": "전상현",
+      "savePitcher": "",
+      "gameId": "20260319HTHH0",
+      "standoutHitter": {
+        "name": "허인서",
+        "stat": "45.1%(3타수 2득점 1안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "이상규",
+        "stat": "7회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률32.9% → 39.4%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "L",
@@ -199,28 +221,6 @@
         "name": "박상원",
         "stat": "7회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률32.9% → 39.4%",
         "rank": 3
-      }
-    },
-    {
-      "date": "2025-10-27",
-      "result": "L",
-      "opponent": "LG",
-      "homeAway": "away",
-      "score": "5-13",
-      "stadium": "잠실",
-      "winningPitcher": "김진성",
-      "losingPitcher": "류현진",
-      "savePitcher": "",
-      "gameId": "20251027HHLG0",
-      "standoutHitter": {
-        "name": "문현빈",
-        "stat": "21.5%(4타수 1득점 1안타 3타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "류현진",
-        "stat": "2회말 삼진 아웃승리확률37.2% → 40.1%",
-        "rank": 4
       }
     }
   ]

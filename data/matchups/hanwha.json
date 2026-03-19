@@ -1,11 +1,33 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-03-19T01:26:06+09:00",
-  "gameDate": "2026-03-19",
+  "updatedAt": "2026-03-20T01:22:01+09:00",
+  "gameDate": "2026-03-20",
   "opponent": "KIA",
   "opponentSlug": "kia",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "7-5",
+      "stadium": "대전",
+      "winningPitcher": "정우주",
+      "losingPitcher": "전상현",
+      "savePitcher": "",
+      "gameId": "20260319HTHH0",
+      "standoutHitter": {
+        "name": "허인서",
+        "stat": "45.1%(3타수 2득점 1안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "이상규",
+        "stat": "7회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률32.9% → 39.4%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-18",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "김종수",
         "stat": "10회말 좌익수 플라이 아웃승리확률17% → 28.8%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2025-06-07",
-      "result": "W",
-      "opponent": "KIA",
-      "homeAway": "away",
-      "score": "3-2",
-      "stadium": "광주",
-      "winningPitcher": "김종수",
-      "losingPitcher": "최지민",
-      "savePitcher": "김범수",
-      "gameId": "20250607HHHT0",
-      "standoutHitter": {
-        "name": "이진영",
-        "stat": "33.6%(5타수 1득점 2안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김종수",
-        "stat": "10회말 1루수 라인드라이브 아웃승리확률15.8% → 50%",
-        "rank": 1
       }
     }
   ],

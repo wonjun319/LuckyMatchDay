@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-19T01:26:00+09:00",
+  "updatedAt": "2026-03-20T01:21:54+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "두산",
+      "homeAway": "home",
+      "score": "10-3",
+      "stadium": "사직",
+      "winningPitcher": "김진욱",
+      "losingPitcher": "잭로그",
+      "savePitcher": "",
+      "gameId": "20260319OBLT0",
+      "standoutHitter": {
+        "name": "손호영",
+        "stat": "13.9%(4타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김진욱",
+        "stat": "1회초 중견수 플라이 아웃승리확률50% → 52.3%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "D",

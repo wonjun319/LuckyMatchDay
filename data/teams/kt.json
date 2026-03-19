@@ -1,8 +1,30 @@
 {
   "team": "KT Wiz",
   "slug": "kt",
-  "updatedAt": "2026-03-19T01:26:07+09:00",
+  "updatedAt": "2026-03-20T01:22:03+09:00",
   "last10": [
+    {
+      "date": "2026-03-19",
+      "result": "L",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "4-11",
+      "stadium": "수원",
+      "winningPitcher": "유토",
+      "losingPitcher": "박지훈",
+      "savePitcher": "",
+      "gameId": "20260319WOKT0",
+      "standoutHitter": {
+        "name": "김현수",
+        "stat": "23.6%(3타수 0득점 1안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "보쉴리",
+        "stat": "1회초 우익수 플라이 아웃 2루주자 이주형 : 태그아웃 (우익수->3루수 태그아웃)승리확률44.9% → 54%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "W",
