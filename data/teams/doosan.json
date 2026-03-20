@@ -1,8 +1,30 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-03-20T01:21:45+09:00",
+  "updatedAt": "2026-03-21T01:15:56+09:00",
   "last10": [
+    {
+      "date": "2026-03-20",
+      "result": "W",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "4-1",
+      "stadium": "사직",
+      "winningPitcher": "이영하",
+      "losingPitcher": "김태균",
+      "savePitcher": "김택연",
+      "gameId": "20260320OBLT0",
+      "standoutHitter": {
+        "name": "카메론",
+        "stat": "19.1%(2타수 2득점 1안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "이영하",
+        "stat": "2회말 투수 병살타 아웃 (투수->포수->1루수 송구아웃)승리확률38.6% → 54.2%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-19",
       "result": "L",

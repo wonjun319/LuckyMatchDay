@@ -1,8 +1,30 @@
 {
   "team": "KT Wiz",
   "slug": "kt",
-  "updatedAt": "2026-03-20T01:22:03+09:00",
+  "updatedAt": "2026-03-21T01:16:13+09:00",
   "last10": [
+    {
+      "date": "2026-03-20",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "4-1",
+      "stadium": "수원",
+      "winningPitcher": "고영표",
+      "losingPitcher": "정현우",
+      "savePitcher": "",
+      "gameId": "20260320WOKT0",
+      "standoutHitter": {
+        "name": "한승택",
+        "stat": "10.6%(2타수 0득점 1안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "고영표",
+        "stat": "2회초 3루수 라인드라이브 아웃승리확률55.5% → 64.7%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-19",
       "result": "L",

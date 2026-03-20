@@ -1,8 +1,30 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-20T01:22:13+09:00",
+  "updatedAt": "2026-03-21T01:16:24+09:00",
   "last10": [
+    {
+      "date": "2026-03-20",
+      "result": "L",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "1-4",
+      "stadium": "수원",
+      "winningPitcher": "고영표",
+      "losingPitcher": "정현우",
+      "savePitcher": "",
+      "gameId": "20260320WOKT0",
+      "standoutHitter": {
+        "name": "최주환",
+        "stat": "2.9%(3타수 0득점 1안타 0타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "정현우",
+        "stat": "4",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-19",
       "result": "W",

@@ -1,8 +1,30 @@
 {
   "team": "LG Twins",
   "slug": "lg",
-  "updatedAt": "2026-03-20T01:21:32+09:00",
+  "updatedAt": "2026-03-21T01:15:47+09:00",
   "last10": [
+    {
+      "date": "2026-03-20",
+      "result": "W",
+      "opponent": "SSG",
+      "homeAway": "away",
+      "score": "9-7",
+      "stadium": "문학",
+      "winningPitcher": "백승현",
+      "losingPitcher": "김현재",
+      "savePitcher": "우강훈",
+      "gameId": "20260320LGSK0",
+      "standoutHitter": {
+        "name": "이재원",
+        "stat": "27.2%(3타수 2득점 3안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "치리노스",
+        "stat": "1회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률42.1% → 50%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-19",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "장현식",
         "stat": "7회말 삼진 아웃승리확률15.3% → 22.5%",
         "rank": 3
-      }
-    },
-    {
-      "date": "2025-10-29",
-      "result": "L",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "3-7",
-      "stadium": "대전",
-      "winningPitcher": "김서현",
-      "losingPitcher": "유영찬",
-      "savePitcher": "",
-      "gameId": "20251029LGHH0",
-      "standoutHitter": {
-        "name": "신민재",
-        "stat": "12.6%(2타수 0득점 2안타 1타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "송승기",
-        "stat": "8회말 삼진 아웃승리확률59.4% → 70.8%",
-        "rank": 1
       }
     }
   ]

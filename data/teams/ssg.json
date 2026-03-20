@@ -1,8 +1,30 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-03-20T01:21:41+09:00",
+  "updatedAt": "2026-03-21T01:15:52+09:00",
   "last10": [
+    {
+      "date": "2026-03-20",
+      "result": "L",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "7-9",
+      "stadium": "문학",
+      "winningPitcher": "백승현",
+      "losingPitcher": "김현재",
+      "savePitcher": "우강훈",
+      "gameId": "20260320LGSK0",
+      "standoutHitter": {
+        "name": "김성욱",
+        "stat": "20.5%(3타수 0득점 1안타 2타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "김민준",
+        "stat": "3회초 포수 스트라이크 낫 아웃 (포수 태그아웃)승리확률51.2% → 55.9%",
+        "rank": 5
+      }
+    },
     {
       "date": "2026-03-19",
       "result": "L",
