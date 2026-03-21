@@ -1,8 +1,30 @@
 {
   "team": "LG Twins",
   "slug": "lg",
-  "updatedAt": "2026-03-21T01:15:47+09:00",
+  "updatedAt": "2026-03-22T01:07:26+09:00",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "L",
+      "opponent": "삼성",
+      "homeAway": "away",
+      "score": "3-4",
+      "stadium": "대구",
+      "winningPitcher": "후라도",
+      "losingPitcher": "이우찬",
+      "savePitcher": "김재윤",
+      "gameId": "20260321LGSS0",
+      "standoutHitter": {
+        "name": "박해민",
+        "stat": "17.2%(4타수 1득점 3안타 2타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "톨허스트",
+        "stat": "3회말 좌익수 플라이 아웃승리확률42.3% → 50%",
+        "rank": 4
+      }
+    },
     {
       "date": "2026-03-20",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "톨허스트",
         "stat": "7회말 유격수 병살타 아웃 (유격수->1루수 송구아웃)승리확률69.3% → 82.4%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-10-30",
-      "result": "W",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "7-4",
-      "stadium": "대전",
-      "winningPitcher": "이정용",
-      "losingPitcher": "박상원",
-      "savePitcher": "유영찬",
-      "gameId": "20251030LGHH0",
-      "standoutHitter": {
-        "name": "김현수",
-        "stat": "62.1%(5타수 0득점 3안타 3타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "장현식",
-        "stat": "7회말 삼진 아웃승리확률15.3% → 22.5%",
-        "rank": 3
       }
     }
   ]

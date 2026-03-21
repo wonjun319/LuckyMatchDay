@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-21T01:16:03+09:00",
+  "updatedAt": "2026-03-22T01:07:38+09:00",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "한화",
+      "homeAway": "home",
+      "score": "12-6",
+      "stadium": "사직",
+      "winningPitcher": "로드리게스",
+      "losingPitcher": "엄상백",
+      "savePitcher": "",
+      "gameId": "20260321HHLT0",
+      "standoutHitter": {
+        "name": "손호영",
+        "stat": "21.7%(3타수 3득점 3안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "로드리게스",
+        "stat": "1회초 삼진 아웃승리확률33.1% → 37.4%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-20",
       "result": "L",

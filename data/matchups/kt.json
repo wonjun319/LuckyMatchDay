@@ -1,11 +1,33 @@
 {
   "team": "KT Wiz",
   "slug": "kt",
-  "updatedAt": "2026-03-21T01:16:16+09:00",
-  "gameDate": "2026-03-21",
+  "updatedAt": "2026-03-22T01:07:47+09:00",
+  "gameDate": "2026-03-22",
   "opponent": "NC",
   "opponentSlug": "nc",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "NC",
+      "homeAway": "home",
+      "score": "8-2",
+      "stadium": "수원",
+      "winningPitcher": "소형준",
+      "losingPitcher": "라일리",
+      "savePitcher": "",
+      "gameId": "20260321NCKT0",
+      "standoutHitter": {
+        "name": "허경민",
+        "stat": "12.4%(2타수 0득점 2안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "임준형",
+        "stat": "8회초 삼진 아웃승리확률91.4% → 96.6%",
+        "rank": 2
+      }
+    },
     {
       "date": "2025-09-30",
       "result": "L",
@@ -194,28 +216,6 @@
         "name": "박영현",
         "stat": "8회초 삼진 아웃승리확률37.8% → 51.1%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-21",
-      "result": "W",
-      "opponent": "NC",
-      "homeAway": "home",
-      "score": "7-5",
-      "stadium": "수원",
-      "winningPitcher": "최용준",
-      "losingPitcher": "배재환",
-      "savePitcher": "박영현",
-      "gameId": "20250621NCKT0",
-      "standoutHitter": {
-        "name": "문상철",
-        "stat": "18.3%(0타수 0득점 0안타 1타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "오원석",
-        "stat": "4회초 삼진 아웃승리확률37.3% → 44.6%",
-        "rank": 5
       }
     }
   ],

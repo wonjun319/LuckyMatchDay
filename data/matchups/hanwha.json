@@ -1,11 +1,33 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-03-21T01:16:11+09:00",
-  "gameDate": "2026-03-21",
+  "updatedAt": "2026-03-22T01:07:43+09:00",
+  "gameDate": "2026-03-22",
   "opponent": "롯데",
   "opponentSlug": "lotte",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "L",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "6-12",
+      "stadium": "사직",
+      "winningPitcher": "로드리게스",
+      "losingPitcher": "엄상백",
+      "savePitcher": "",
+      "gameId": "20260321HHLT0",
+      "standoutHitter": {
+        "name": "노시환",
+        "stat": "5.2%(4타수 0득점 1안타 2타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "엄상백",
+        "stat": "1회말 유격수 플라이 아웃승리확률46.3% → 53.9%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-30",
       "result": "W",
@@ -195,33 +217,11 @@
         "stat": "7회말 유격수 플라이 아웃승리확률84.9% → 88.6%",
         "rank": 2
       }
-    },
-    {
-      "date": "2025-05-25",
-      "result": "W",
-      "opponent": "롯데",
-      "homeAway": "home",
-      "score": "8-7",
-      "stadium": "대전",
-      "winningPitcher": "정우주",
-      "losingPitcher": "김강현",
-      "savePitcher": "",
-      "gameId": "20250525LTHH0",
-      "standoutHitter": {
-        "name": "문현빈",
-        "stat": "36.8%(3타수 1득점 2안타 1타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "정우주",
-        "stat": "10회초 좌익수 플라이 아웃승리확률54.9% → 65.9%",
-        "rank": 1
-      }
     }
   ],
   "summary": {
-    "wins": 8,
-    "losses": 2,
+    "wins": 7,
+    "losses": 3,
     "draws": 0
   }
 }

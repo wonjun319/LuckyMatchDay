@@ -1,11 +1,33 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-03-21T01:16:21+09:00",
-  "gameDate": "2026-03-21",
+  "updatedAt": "2026-03-22T01:07:51+09:00",
+  "gameDate": "2026-03-22",
   "opponent": "KT",
   "opponentSlug": "kt",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "L",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "2-8",
+      "stadium": "수원",
+      "winningPitcher": "소형준",
+      "losingPitcher": "라일리",
+      "savePitcher": "",
+      "gameId": "20260321NCKT0",
+      "standoutHitter": {
+        "name": "고준휘",
+        "stat": "4.7%(1타수 0득점 1안타 2타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "라일리",
+        "stat": "2회말 유격수 라인드라이브 아웃승리확률24.8% → 31%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-30",
       "result": "W",
@@ -194,28 +216,6 @@
         "name": "로건",
         "stat": "5회말 좌익수 플라이 아웃승리확률40.8% → 50%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2025-06-21",
-      "result": "L",
-      "opponent": "KT",
-      "homeAway": "away",
-      "score": "5-7",
-      "stadium": "수원",
-      "winningPitcher": "최용준",
-      "losingPitcher": "배재환",
-      "savePitcher": "박영현",
-      "gameId": "20250621NCKT0",
-      "standoutHitter": {
-        "name": "박민우",
-        "stat": "20.7%(4타수 1득점 3안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "목지훈",
-        "stat": "6회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률77% → 86.2%",
-        "rank": 1
       }
     }
   ],

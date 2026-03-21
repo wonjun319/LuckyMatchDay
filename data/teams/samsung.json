@@ -1,8 +1,30 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-03-21T01:16:00+09:00",
+  "updatedAt": "2026-03-22T01:07:36+09:00",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "4-3",
+      "stadium": "대구",
+      "winningPitcher": "후라도",
+      "losingPitcher": "이우찬",
+      "savePitcher": "김재윤",
+      "gameId": "20260321LGSS0",
+      "standoutHitter": {
+        "name": "이재현",
+        "stat": "17.4%(2타수 1득점 1안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김재윤",
+        "stat": "9회초 3루수 파울플라이 아웃승리확률81.5% → 89.7%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-20",
       "result": "L",
@@ -199,28 +221,6 @@
         "name": "최원태",
         "stat": "3회말 2루수 라인드라이브 아웃승리확률15.6% → 19.1%",
         "rank": 3
-      }
-    },
-    {
-      "date": "2025-10-22",
-      "result": "W",
-      "opponent": "한화",
-      "homeAway": "home",
-      "score": "7-4",
-      "stadium": "대구",
-      "winningPitcher": "가라비토",
-      "losingPitcher": "한승혁",
-      "savePitcher": "김재윤",
-      "gameId": "20251022HHSS0",
-      "standoutHitter": {
-        "name": "김영웅",
-        "stat": "59.4%(4타수 2득점 3안타 6타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "가라비토",
-        "stat": "7회초 좌익수 플라이 아웃승리확률50% → 59.6%",
-        "rank": 2
       }
     }
   ]

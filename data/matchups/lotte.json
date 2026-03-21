@@ -1,11 +1,33 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-21T01:16:07+09:00",
-  "gameDate": "2026-03-21",
+  "updatedAt": "2026-03-22T01:07:40+09:00",
+  "gameDate": "2026-03-22",
   "opponent": "한화",
   "opponentSlug": "hanwha",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "한화",
+      "homeAway": "home",
+      "score": "12-6",
+      "stadium": "사직",
+      "winningPitcher": "로드리게스",
+      "losingPitcher": "엄상백",
+      "savePitcher": "",
+      "gameId": "20260321HHLT0",
+      "standoutHitter": {
+        "name": "손호영",
+        "stat": "21.7%(3타수 3득점 3안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "로드리게스",
+        "stat": "1회초 삼진 아웃승리확률33.1% → 37.4%",
+        "rank": 2
+      }
+    },
     {
       "date": "2025-09-30",
       "result": "L",
@@ -195,33 +217,11 @@
         "stat": "1회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률47.1% → 54%",
         "rank": 1
       }
-    },
-    {
-      "date": "2025-05-25",
-      "result": "L",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "7-8",
-      "stadium": "대전",
-      "winningPitcher": "정우주",
-      "losingPitcher": "김강현",
-      "savePitcher": "",
-      "gameId": "20250525LTHH0",
-      "standoutHitter": {
-        "name": "전준우",
-        "stat": "40.5%(5타수 2득점 2안타 3타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김강현",
-        "stat": "10회말 삼진 아웃승리확률34.1% → 40.4%",
-        "rank": 5
-      }
     }
   ],
   "summary": {
-    "wins": 2,
-    "losses": 8,
+    "wins": 3,
+    "losses": 7,
     "draws": 0
   }
 }

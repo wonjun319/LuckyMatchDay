@@ -1,11 +1,33 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-03-21T01:16:02+09:00",
-  "gameDate": "2026-03-21",
+  "updatedAt": "2026-03-22T01:07:37+09:00",
+  "gameDate": "2026-03-22",
   "opponent": "LG",
   "opponentSlug": "lg",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "4-3",
+      "stadium": "대구",
+      "winningPitcher": "후라도",
+      "losingPitcher": "이우찬",
+      "savePitcher": "김재윤",
+      "gameId": "20260321LGSS0",
+      "standoutHitter": {
+        "name": "이재현",
+        "stat": "17.4%(2타수 1득점 1안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김재윤",
+        "stat": "9회초 3루수 파울플라이 아웃승리확률81.5% → 89.7%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-20",
       "result": "W",
@@ -201,28 +223,6 @@
       "standoutPitcher": {
         "name": "김재윤",
         "stat": "6회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률67.5% → 77.6%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-05-30",
-      "result": "W",
-      "opponent": "LG",
-      "homeAway": "away",
-      "score": "4-3",
-      "stadium": "잠실",
-      "winningPitcher": "김재윤",
-      "losingPitcher": "이우찬",
-      "savePitcher": "이호성",
-      "gameId": "20250530SSLG0",
-      "standoutHitter": {
-        "name": "양도근",
-        "stat": "27.4%(1타수 0득점 1안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "이호성",
-        "stat": "9회말 좌익수 플라이 아웃승리확률81.4% → 100%",
         "rank": 1
       }
     }

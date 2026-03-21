@@ -1,8 +1,30 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-21T01:15:16+09:00",
+  "updatedAt": "2026-03-22T01:07:01+09:00",
   "last10": [
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "두산",
+      "homeAway": "away",
+      "score": "11-6",
+      "stadium": "잠실",
+      "winningPitcher": "네일",
+      "losingPitcher": "최승용",
+      "savePitcher": "",
+      "gameId": "20260321HTOB0",
+      "standoutHitter": {
+        "name": "정현창",
+        "stat": "20.7%(4타수 1득점 2안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김범수",
+        "stat": "8회말 삼진 아웃승리확률89.2% → 92.8%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-20",
       "result": "L",
