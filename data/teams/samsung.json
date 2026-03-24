@@ -1,8 +1,30 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-03-24T01:21:20+09:00",
+  "updatedAt": "2026-03-25T01:24:12+09:00",
   "last10": [
+    {
+      "date": "2026-03-24",
+      "result": "L",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "1-2",
+      "stadium": "대구",
+      "winningPitcher": "올러",
+      "losingPitcher": "오러클린",
+      "savePitcher": "정해영",
+      "gameId": "20260324HTSS0",
+      "standoutHitter": {
+        "name": "구자욱",
+        "stat": "11.9%(3타수 0득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "오러클린",
+        "stat": "4",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-23",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "육선엽",
         "stat": "9회말 삼진 아웃승리확률88.8% → 100%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-13",
-      "result": "L",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "2-3",
-      "stadium": "대전",
-      "winningPitcher": "권민규",
-      "losingPitcher": "이승현",
-      "savePitcher": "김서현",
-      "gameId": "20260313SSHH0",
-      "standoutHitter": {
-        "name": "이성규",
-        "stat": "13.7%(3타수 1득점 2안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "배찬승",
-        "stat": "7회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률22.6% → 27.7%",
-        "rank": 5
       }
     }
   ]

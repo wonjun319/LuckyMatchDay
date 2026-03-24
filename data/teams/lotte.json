@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-24T01:21:23+09:00",
+  "updatedAt": "2026-03-25T01:24:14+09:00",
   "last10": [
+    {
+      "date": "2026-03-24",
+      "result": "L",
+      "opponent": "SSG",
+      "homeAway": "away",
+      "score": "3-6",
+      "stadium": "문학",
+      "winningPitcher": "베니지아노",
+      "losingPitcher": "박세웅",
+      "savePitcher": "조병현",
+      "gameId": "20260324LTSK0",
+      "standoutHitter": {
+        "name": "유강남",
+        "stat": "10.7%(2타수 1득점 2안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "박세웅",
+        "stat": "4회말 삼진 아웃승리확률48.5% → 53.9%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-23",
       "result": "W",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "정철원",
         "stat": "7회초 3루수 병살타 아웃 (3루수->포수->1루수 송구아웃)승리확률51.5% → 77.5%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-13",
-      "result": "D",
-      "opponent": "KT",
-      "homeAway": "home",
-      "score": "6-6",
-      "stadium": "사직",
-      "winningPitcher": "",
-      "losingPitcher": "",
-      "savePitcher": "",
-      "gameId": "20260313KTLT0",
-      "standoutHitter": {
-        "name": "손호영",
-        "stat": "17.7%(3타수 0득점 2안타 2타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "박준우",
-        "stat": "7회초 삼진 아웃승리확률42.1% → 52.9%",
         "rank": 1
       }
     }

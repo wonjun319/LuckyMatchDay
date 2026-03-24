@@ -1,8 +1,30 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-24T01:20:23+09:00",
+  "updatedAt": "2026-03-25T01:24:06+09:00",
   "last10": [
+    {
+      "date": "2026-03-24",
+      "result": "W",
+      "opponent": "삼성",
+      "homeAway": "away",
+      "score": "2-1",
+      "stadium": "대구",
+      "winningPitcher": "올러",
+      "losingPitcher": "오러클린",
+      "savePitcher": "정해영",
+      "gameId": "20260324HTSS0",
+      "standoutHitter": {
+        "name": "김태군",
+        "stat": "6.6%(2타수 0득점 1안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "정해영",
+        "stat": "9회말 중견수 플라이 아웃승리확률76.6% → 88.8%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-23",
       "result": "L",
@@ -199,28 +221,6 @@
         "name": "조상우",
         "stat": "9회초 2루수 플라이 아웃승리확률53.4% → 65.9%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-13",
-      "result": "L",
-      "opponent": "SSG",
-      "homeAway": "home",
-      "score": "2-3",
-      "stadium": "광주",
-      "winningPitcher": "타케다",
-      "losingPitcher": "김태형",
-      "savePitcher": "이로운",
-      "gameId": "20260313SKHT0",
-      "standoutHitter": {
-        "name": "박민",
-        "stat": "19.7%(3타수 0득점 2안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김태형",
-        "stat": "3",
-        "rank": 2
       }
     }
   ]
