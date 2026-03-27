@@ -1,8 +1,184 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-03-16T01:09:43+09:00",
+  "updatedAt": "2026-03-27T01:27:26+09:00",
   "last10": [
+    {
+      "date": "2026-03-24",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "away",
+      "score": "5-2",
+      "stadium": "잠실",
+      "winningPitcher": "와일스",
+      "losingPitcher": "손주영",
+      "savePitcher": "박정훈",
+      "gameId": "20260324WOLG0",
+      "standoutHitter": {
+        "name": "안치홍",
+        "stat": "19.9%(4타수 1득점 2안타 4타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박정훈",
+        "stat": "9회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률80.6% → 100%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "away",
+      "score": "13-10",
+      "stadium": "잠실",
+      "winningPitcher": "하영민",
+      "losingPitcher": "웰스",
+      "savePitcher": "조영건",
+      "gameId": "20260323WOLG0",
+      "standoutHitter": {
+        "name": "이주형",
+        "stat": "25.6%(4타수 4득점 3안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "조영건",
+        "stat": "9회말 좌익수 플라이 아웃승리확률89.5% → 95.6%",
+        "rank": 3
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "result": "L",
+      "opponent": "SSG",
+      "homeAway": "away",
+      "score": "3-4",
+      "stadium": "문학",
+      "winningPitcher": "김건우",
+      "losingPitcher": "박진형",
+      "savePitcher": "박시후",
+      "gameId": "20260322WOSK0",
+      "standoutHitter": {
+        "name": "박찬혁",
+        "stat": "6.1%(1타수 0득점 0안타 0타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "박진형",
+        "stat": "5회말 삼진 아웃승리확률22.8% → 27.5%",
+        "rank": 5
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "result": "W",
+      "opponent": "SSG",
+      "homeAway": "away",
+      "score": "9-0",
+      "stadium": "문학",
+      "winningPitcher": "알칸타라",
+      "losingPitcher": "화이트",
+      "savePitcher": "",
+      "gameId": "20260321WOSK0",
+      "standoutHitter": {
+        "name": "오선진",
+        "stat": "13.1%(3타수 1득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "윤석원",
+        "stat": "6회말 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률94.7% → 98.1%",
+        "rank": 2
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "result": "L",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "1-4",
+      "stadium": "수원",
+      "winningPitcher": "고영표",
+      "losingPitcher": "정현우",
+      "savePitcher": "",
+      "gameId": "20260320WOKT0",
+      "standoutHitter": {
+        "name": "최주환",
+        "stat": "2.9%(3타수 0득점 1안타 0타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "정현우",
+        "stat": "4",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "result": "W",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "11-4",
+      "stadium": "수원",
+      "winningPitcher": "유토",
+      "losingPitcher": "박지훈",
+      "savePitcher": "",
+      "gameId": "20260319WOKT0",
+      "standoutHitter": {
+        "name": "김건희",
+        "stat": "33.1%(3타수 0득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김윤하",
+        "stat": "3회말 삼진 아웃승리확률42.3% → 50%",
+        "rank": 2
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "result": "D",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "4-4",
+      "stadium": "사직",
+      "winningPitcher": "",
+      "losingPitcher": "",
+      "savePitcher": "",
+      "gameId": "20260317WOLT0",
+      "standoutHitter": {
+        "name": "김건희",
+        "stat": "23.9%(1타수 0득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박진형",
+        "stat": "9회말 좌익수 플라이 아웃승리확률38.3% → 50%",
+        "rank": 3
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "result": "L",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "1-12",
+      "stadium": "사직",
+      "winningPitcher": "나균안",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260316WOLT0",
+      "standoutHitter": {
+        "name": "어준서",
+        "stat": "5.2%(1타수 0득점 1안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "와일스",
+        "stat": "1회말 삼진 아웃승리확률39.9% → 43.9%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",
@@ -45,50 +221,6 @@
         "name": "정현우",
         "stat": "3",
         "rank": 2
-      }
-    },
-    {
-      "date": "2026-03-13",
-      "result": "L",
-      "opponent": "두산",
-      "homeAway": "away",
-      "score": "1-8",
-      "stadium": "이천(두산)",
-      "winningPitcher": "최원준",
-      "losingPitcher": "배동현",
-      "savePitcher": "",
-      "gameId": "20260313WOOB0",
-      "standoutHitter": {
-        "name": "박찬혁",
-        "stat": "12.9%(2타수 0득점 1안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김성진",
-        "stat": "2",
-        "rank": 2
-      }
-    },
-    {
-      "date": "2026-03-12",
-      "result": "L",
-      "opponent": "두산",
-      "homeAway": "away",
-      "score": "7-9",
-      "stadium": "이천(두산)",
-      "winningPitcher": "이교훈",
-      "losingPitcher": "박준현",
-      "savePitcher": "",
-      "gameId": "20260312WOOB0",
-      "standoutHitter": {
-        "name": "박한결",
-        "stat": "9.1%(2타수 0득점 2안타 1타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "하영민",
-        "stat": "3회말 우익수 플라이 아웃승리확률45.4% → 50%",
-        "rank": 4
       }
     }
   ]

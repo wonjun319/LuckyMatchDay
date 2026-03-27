@@ -1,8 +1,184 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-03-16T01:09:16+09:00",
+  "updatedAt": "2026-03-27T01:27:13+09:00",
   "last10": [
+    {
+      "date": "2026-03-24",
+      "result": "L",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "3-7",
+      "stadium": "수원",
+      "winningPitcher": "보쉴리",
+      "losingPitcher": "잭로그",
+      "savePitcher": "",
+      "gameId": "20260324OBKT0",
+      "standoutHitter": {
+        "name": "정수빈",
+        "stat": "6.9%(4타수 1득점 3안타 0타점)",
+        "rank": 3
+      },
+      "standoutPitcher": {
+        "name": "잭로그",
+        "stat": "1회말 우익수 플라이 아웃승리확률48.7% → 52.9%",
+        "rank": 3
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "result": "W",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "12-7",
+      "stadium": "수원",
+      "winningPitcher": "곽빈",
+      "losingPitcher": "문용익",
+      "savePitcher": "",
+      "gameId": "20260323OBKT0",
+      "standoutHitter": {
+        "name": "강승호",
+        "stat": "11%(4타수 1득점 3안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "곽빈",
+        "stat": "1회말 삼진 아웃승리확률59.7% → 62.8%",
+        "rank": 2
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "result": "D",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "0-0",
+      "stadium": "잠실",
+      "winningPitcher": "",
+      "losingPitcher": "",
+      "savePitcher": "",
+      "gameId": "20260322HTOB0",
+      "standoutHitter": {
+        "name": "김민석",
+        "stat": "5.1%(3타수 0득점 2안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김택연",
+        "stat": "9회초 삼진 아웃승리확률50% → 56.5%",
+        "rank": 4
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "result": "L",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "6-11",
+      "stadium": "잠실",
+      "winningPitcher": "네일",
+      "losingPitcher": "최승용",
+      "savePitcher": "",
+      "gameId": "20260321HTOB0",
+      "standoutHitter": {
+        "name": "박준순",
+        "stat": "12.8%(4타수 1득점 1안타 3타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "최민석",
+        "stat": "7회초 삼진 아웃승리확률12.9% → 15.4%",
+        "rank": 4
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "result": "W",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "4-1",
+      "stadium": "사직",
+      "winningPitcher": "이영하",
+      "losingPitcher": "김태균",
+      "savePitcher": "김택연",
+      "gameId": "20260320OBLT0",
+      "standoutHitter": {
+        "name": "카메론",
+        "stat": "19.1%(2타수 2득점 1안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "이영하",
+        "stat": "2회말 투수 병살타 아웃 (투수->포수->1루수 송구아웃)승리확률38.6% → 54.2%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "result": "L",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "3-10",
+      "stadium": "사직",
+      "winningPitcher": "김진욱",
+      "losingPitcher": "잭로그",
+      "savePitcher": "",
+      "gameId": "20260319OBLT0",
+      "standoutHitter": {
+        "name": "카메론",
+        "stat": "3",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "잭로그",
+        "stat": "2회말 삼진 아웃승리확률17.5% → 21%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "result": "W",
+      "opponent": "한화",
+      "homeAway": "away",
+      "score": "3-2",
+      "stadium": "대전",
+      "winningPitcher": "박치국",
+      "losingPitcher": "박준영",
+      "savePitcher": "김명신",
+      "gameId": "20260317OBHH0",
+      "standoutHitter": {
+        "name": "조수행",
+        "stat": "27.2%(1타수 0득점 0안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박치국",
+        "stat": "8회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률32.8% → 50%",
+        "rank": 1
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "result": "W",
+      "opponent": "한화",
+      "homeAway": "away",
+      "score": "8-4",
+      "stadium": "대전",
+      "winningPitcher": "박신지",
+      "losingPitcher": "박상원",
+      "savePitcher": "",
+      "gameId": "20260316OBHH0",
+      "standoutHitter": {
+        "name": "강승호",
+        "stat": "26.7%(2타수 1득점 1안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "최민석",
+        "stat": "2회말 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률30.5% → 40.1%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-15",
       "result": "W",
@@ -45,50 +221,6 @@
         "name": "이영하",
         "stat": "1회초 중견수 플라이 아웃승리확률48.2% → 55.1%",
         "rank": 4
-      }
-    },
-    {
-      "date": "2026-03-13",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "home",
-      "score": "8-1",
-      "stadium": "이천(두산)",
-      "winningPitcher": "최원준",
-      "losingPitcher": "배동현",
-      "savePitcher": "",
-      "gameId": "20260313WOOB0",
-      "standoutHitter": {
-        "name": "안재석",
-        "stat": "10.4%(5타수 1득점 1안타 1타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "잭로그",
-        "stat": "4회초 삼진 아웃승리확률31% → 38.9%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-12",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "home",
-      "score": "9-7",
-      "stadium": "이천(두산)",
-      "winningPitcher": "이교훈",
-      "losingPitcher": "박준현",
-      "savePitcher": "",
-      "gameId": "20260312WOOB0",
-      "standoutHitter": {
-        "name": "양석환",
-        "stat": "13.8%(2타수 1득점 2안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "플렉센",
-        "stat": "1회초 삼진 아웃승리확률48.2% → 55.1%",
-        "rank": 1
       }
     }
   ]
