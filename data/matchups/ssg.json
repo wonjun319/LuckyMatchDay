@@ -1,11 +1,33 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-03-31T01:24:10+09:00",
-  "gameDate": "2026-03-31",
+  "updatedAt": "2026-04-01T01:24:35+09:00",
+  "gameDate": "2026-04-01",
   "opponent": "키움",
   "opponentSlug": "kiwoom",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "9-3",
+      "stadium": "문학",
+      "winningPitcher": "이로운",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260331WOSK0",
+      "standoutHitter": {
+        "name": "한유섬",
+        "stat": "14.2%(3타수 0득점 1안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김민",
+        "stat": "7회초 삼진 아웃승리확률67.2% → 71.9%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-22",
       "result": "W",
@@ -194,28 +216,6 @@
         "name": "전영준",
         "stat": "4회초 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률57.2% → 66.1%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-19",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "away",
-      "score": "4-2",
-      "stadium": "고척",
-      "winningPitcher": "노경은",
-      "losingPitcher": "오석주",
-      "savePitcher": "이로운",
-      "gameId": "20250619SKWO0",
-      "standoutHitter": {
-        "name": "석정우",
-        "stat": "34.6%(2타수 1득점 1안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김택형",
-        "stat": "6회말 1루수 병살타 아웃 (1루수 1루 터치아웃) 1루주자 어준서 : 태그아웃 (1루수->유격수 태그아웃)승리확률24.3% → 31.5%",
-        "rank": 5
       }
     }
   ],

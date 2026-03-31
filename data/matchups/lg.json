@@ -1,11 +1,33 @@
 {
   "team": "LG Twins",
   "slug": "lg",
-  "updatedAt": "2026-03-31T01:24:03+09:00",
-  "gameDate": "2026-03-31",
+  "updatedAt": "2026-04-01T01:24:31+09:00",
+  "gameDate": "2026-04-01",
   "opponent": "KIA",
   "opponentSlug": "kia",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "L",
+      "opponent": "KIA",
+      "homeAway": "home",
+      "score": "2-7",
+      "stadium": "잠실",
+      "winningPitcher": "올러",
+      "losingPitcher": "톨허스트",
+      "savePitcher": "",
+      "gameId": "20260331HTLG0",
+      "standoutHitter": {
+        "name": "최원영",
+        "stat": "2.7%(1타수 0득점 1안타 1타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "톨허스트",
+        "stat": "1회초 삼진 아웃승리확률43.2% → 46.1%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-14",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "치리노스",
         "stat": "4회초 우익수 플라이 아웃승리확률60.9% → 64%",
         "rank": 5
-      }
-    },
-    {
-      "date": "2025-06-28",
-      "result": "L",
-      "opponent": "KIA",
-      "homeAway": "home",
-      "score": "8-9",
-      "stadium": "잠실",
-      "winningPitcher": "성영탁",
-      "losingPitcher": "박명근",
-      "savePitcher": "정해영",
-      "gameId": "20250628HTLG0",
-      "standoutHitter": {
-        "name": "문보경",
-        "stat": "21.4%(4타수 1득점 2안타 3타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "이지강",
-        "stat": "3",
-        "rank": 2
       }
     }
   ],

@@ -1,8 +1,30 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-03-31T01:24:05+09:00",
+  "updatedAt": "2026-04-01T01:24:33+09:00",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "home",
+      "score": "9-3",
+      "stadium": "문학",
+      "winningPitcher": "이로운",
+      "losingPitcher": "와일스",
+      "savePitcher": "",
+      "gameId": "20260331WOSK0",
+      "standoutHitter": {
+        "name": "한유섬",
+        "stat": "14.2%(3타수 0득점 1안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "김민",
+        "stat": "7회초 삼진 아웃승리확률67.2% → 71.9%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-29",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "김민",
         "stat": "8회초 좌익수 플라이 아웃승리확률78.2% → 86%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-16",
-      "result": "L",
-      "opponent": "삼성",
-      "homeAway": "home",
-      "score": "0-8",
-      "stadium": "문학",
-      "winningPitcher": "최원태",
-      "losingPitcher": "전영준",
-      "savePitcher": "",
-      "gameId": "20260316SSSK0",
-      "standoutHitter": {
-        "name": "홍대인",
-        "stat": "3.5%(2타수 0득점 1안타 0타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "전영준",
-        "stat": "3회초 삼진 아웃승리확률39.9% → 42.3%",
-        "rank": 5
       }
     }
   ]

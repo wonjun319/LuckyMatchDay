@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-31T01:24:24+09:00",
+  "updatedAt": "2026-04-01T01:24:46+09:00",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "away",
+      "score": "2-9",
+      "stadium": "창원",
+      "winningPitcher": "토다",
+      "losingPitcher": "박세웅",
+      "savePitcher": "",
+      "gameId": "20260331LTNC0",
+      "standoutHitter": {
+        "name": "노진혁",
+        "stat": "22.4%(3타수 0득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박세웅",
+        "stat": "2회말 포수 플라이 아웃승리확률55% → 60.1%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-29",
       "result": "W",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "윤성빈",
         "stat": "8회초 삼진 아웃승리확률47.4% → 61.9%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-16",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "home",
-      "score": "12-1",
-      "stadium": "사직",
-      "winningPitcher": "나균안",
-      "losingPitcher": "와일스",
-      "savePitcher": "",
-      "gameId": "20260316WOLT0",
-      "standoutHitter": {
-        "name": "한태양",
-        "stat": "9.3%(2타수 2득점 1안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "나균안",
-        "stat": "2회초 2루수 플라이 아웃승리확률51.3% → 59%",
         "rank": 1
       }
     }

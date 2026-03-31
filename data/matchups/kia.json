@@ -1,11 +1,33 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-03-31T01:23:58+09:00",
-  "gameDate": "2026-03-31",
+  "updatedAt": "2026-04-01T01:24:28+09:00",
+  "gameDate": "2026-04-01",
   "opponent": "LG",
   "opponentSlug": "lg",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "away",
+      "score": "7-2",
+      "stadium": "잠실",
+      "winningPitcher": "올러",
+      "losingPitcher": "톨허스트",
+      "savePitcher": "",
+      "gameId": "20260331HTLG0",
+      "standoutHitter": {
+        "name": "김도영",
+        "stat": "16.8%(4타수 1득점 3안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "올러",
+        "stat": "4회말 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률93.8% → 96.5%",
+        "rank": 2
+      }
+    },
     {
       "date": "2025-09-14",
       "result": "L",
@@ -201,28 +223,6 @@
       "standoutPitcher": {
         "name": "최지민",
         "stat": "7회말 좌익수 플라이 아웃승리확률88.6% → 95.3%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-28",
-      "result": "W",
-      "opponent": "LG",
-      "homeAway": "away",
-      "score": "9-8",
-      "stadium": "잠실",
-      "winningPitcher": "성영탁",
-      "losingPitcher": "박명근",
-      "savePitcher": "정해영",
-      "gameId": "20250628HTLG0",
-      "standoutHitter": {
-        "name": "김석환",
-        "stat": "26.8%(3타수 2득점 2안타 3타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "정해영",
-        "stat": "9회말 좌익수 플라이 아웃승리확률75.2% → 100%",
         "rank": 1
       }
     }

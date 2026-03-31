@@ -1,11 +1,33 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-03-31T01:24:45+09:00",
-  "gameDate": "2026-03-31",
+  "updatedAt": "2026-04-01T01:25:07+09:00",
+  "gameDate": "2026-04-01",
   "opponent": "롯데",
   "opponentSlug": "lotte",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "W",
+      "opponent": "롯데",
+      "homeAway": "home",
+      "score": "9-2",
+      "stadium": "창원",
+      "winningPitcher": "토다",
+      "losingPitcher": "박세웅",
+      "savePitcher": "",
+      "gameId": "20260331LTNC0",
+      "standoutHitter": {
+        "name": "김형준",
+        "stat": "17.1%(2타수 1득점 1안타 1타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "토다",
+        "stat": "2회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률37.9% → 45.7%",
+        "rank": 1
+      }
+    },
     {
       "date": "2025-09-23",
       "result": "W",
@@ -86,7 +108,7 @@
       "standoutHitter": {
         "name": "최정원",
         "stat": "17.6%(2타수 0득점 1안타 1타점)",
-        "rank": 2
+        "rank": 1
       },
       "standoutPitcher": {
         "name": "김녹원",
@@ -202,28 +224,6 @@
         "name": "전사민",
         "stat": "6회초 투수 병살타 아웃 (투수->포수->1루수 송구아웃)승리확률13.2% → 24.3%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "result": "W",
-      "opponent": "롯데",
-      "homeAway": "home",
-      "score": "7-2",
-      "stadium": "창원",
-      "winningPitcher": "라일리",
-      "losingPitcher": "데이비슨",
-      "savePitcher": "",
-      "gameId": "20250625LTNC0",
-      "standoutHitter": {
-        "name": "데이비슨",
-        "stat": "22.9%(5타수 1득점 3안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "라일리",
-        "stat": "6회초 1루수 플라이 아웃승리확률41.8% → 48.1%",
-        "rank": 1
       }
     }
   ],

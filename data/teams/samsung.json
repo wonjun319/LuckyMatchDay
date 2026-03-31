@@ -1,8 +1,30 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-03-31T01:24:19+09:00",
+  "updatedAt": "2026-04-01T01:24:42+09:00",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "D",
+      "opponent": "두산",
+      "homeAway": "home",
+      "score": "5-5",
+      "stadium": "대구",
+      "winningPitcher": "",
+      "losingPitcher": "",
+      "savePitcher": "",
+      "gameId": "20260331OBSS0",
+      "standoutHitter": {
+        "name": "디아즈",
+        "stat": "24.8%(5타수 1득점 1안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "최지광",
+        "stat": "10회초 중견수 플라이 아웃승리확률50.6% → 58.6%",
+        "rank": 4
+      }
+    },
     {
       "date": "2026-03-29",
       "result": "L",
@@ -199,28 +221,6 @@
         "name": "김태훈",
         "stat": "1",
         "rank": 3
-      }
-    },
-    {
-      "date": "2026-03-16",
-      "result": "W",
-      "opponent": "SSG",
-      "homeAway": "away",
-      "score": "8-0",
-      "stadium": "문학",
-      "winningPitcher": "최원태",
-      "losingPitcher": "전영준",
-      "savePitcher": "",
-      "gameId": "20260316SSSK0",
-      "standoutHitter": {
-        "name": "이재현",
-        "stat": "13.8%(3타수 2득점 2안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "최원태",
-        "stat": "3회말 삼진 아웃승리확률63.6% → 67.4%",
-        "rank": 1
       }
     }
   ]

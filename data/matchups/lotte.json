@@ -1,11 +1,33 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-03-31T01:24:26+09:00",
-  "gameDate": "2026-03-31",
+  "updatedAt": "2026-04-01T01:24:48+09:00",
+  "gameDate": "2026-04-01",
   "opponent": "NC",
   "opponentSlug": "nc",
   "last10": [
+    {
+      "date": "2026-03-31",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "away",
+      "score": "2-9",
+      "stadium": "창원",
+      "winningPitcher": "토다",
+      "losingPitcher": "박세웅",
+      "savePitcher": "",
+      "gameId": "20260331LTNC0",
+      "standoutHitter": {
+        "name": "노진혁",
+        "stat": "22.4%(3타수 0득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "박세웅",
+        "stat": "2회말 포수 플라이 아웃승리확률55% → 60.1%",
+        "rank": 3
+      }
+    },
     {
       "date": "2025-09-23",
       "result": "L",
@@ -202,28 +224,6 @@
         "name": "김원중",
         "stat": "9회말 우익수 플라이 아웃승리확률70.8% → 100%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "result": "L",
-      "opponent": "NC",
-      "homeAway": "away",
-      "score": "2-7",
-      "stadium": "창원",
-      "winningPitcher": "라일리",
-      "losingPitcher": "데이비슨",
-      "savePitcher": "",
-      "gameId": "20250625LTNC0",
-      "standoutHitter": {
-        "name": "유강남",
-        "stat": "4.5%(0타수 0득점 0안타 0타점)",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "데이비슨",
-        "stat": "2회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률54.5% → 60.1%",
-        "rank": 4
       }
     }
   ],
