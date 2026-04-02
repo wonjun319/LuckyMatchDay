@@ -1,8 +1,30 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-04-02T01:21:38+09:00",
+  "updatedAt": "2026-04-03T01:22:28+09:00",
   "last10": [
+    {
+      "date": "2026-04-02",
+      "result": "L",
+      "opponent": "삼성",
+      "homeAway": "away",
+      "score": "2-5",
+      "stadium": "대구",
+      "winningPitcher": "최지광",
+      "losingPitcher": "타무라",
+      "savePitcher": "",
+      "gameId": "20260402OBSS0",
+      "standoutHitter": {
+        "name": "카메론",
+        "stat": "9.4%(4타수 0득점 2안타 0타점)",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "최민석",
+        "stat": "3회말 1루수 병살타 아웃 (1루수->포수->1루수 송구아웃)승리확률35.2% → 50%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-01",
       "result": "L",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "이영하",
         "stat": "2회말 투수 병살타 아웃 (투수->포수->1루수 송구아웃)승리확률38.6% → 54.2%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-19",
-      "result": "L",
-      "opponent": "롯데",
-      "homeAway": "away",
-      "score": "3-10",
-      "stadium": "사직",
-      "winningPitcher": "김진욱",
-      "losingPitcher": "잭로그",
-      "savePitcher": "",
-      "gameId": "20260319OBLT0",
-      "standoutHitter": {
-        "name": "카메론",
-        "stat": "3",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "잭로그",
-        "stat": "2회말 삼진 아웃승리확률17.5% → 21%",
         "rank": 1
       }
     }

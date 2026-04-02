@@ -1,8 +1,30 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-04-02T01:21:52+09:00",
+  "updatedAt": "2026-04-03T01:22:42+09:00",
   "last10": [
+    {
+      "date": "2026-04-02",
+      "result": "L",
+      "opponent": "KT",
+      "homeAway": "home",
+      "score": "8-13",
+      "stadium": "대전",
+      "winningPitcher": "오원석",
+      "losingPitcher": "문동주",
+      "savePitcher": "",
+      "gameId": "20260402KTHH0",
+      "standoutHitter": {
+        "name": "문현빈",
+        "stat": "3.8%(5타수 1득점 3안타 3타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "문동주",
+        "stat": "1회초 포수 스트라이크 낫 아웃 (포수->1루수 1루 터치아웃)승리확률51.8% → 55.1%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-01",
       "result": "L",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "강재민",
         "stat": "8회초 좌익수 플라이 아웃승리확률76.8% → 85.5%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-19",
-      "result": "W",
-      "opponent": "KIA",
-      "homeAway": "home",
-      "score": "7-5",
-      "stadium": "대전",
-      "winningPitcher": "정우주",
-      "losingPitcher": "전상현",
-      "savePitcher": "",
-      "gameId": "20260319HTHH0",
-      "standoutHitter": {
-        "name": "허인서",
-        "stat": "45.1%(3타수 2득점 1안타 1타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "이상규",
-        "stat": "7회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률32.9% → 39.4%",
         "rank": 1
       }
     }
