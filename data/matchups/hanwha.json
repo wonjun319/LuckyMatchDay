@@ -1,11 +1,33 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-04-03T01:22:45+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:38+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "두산",
   "opponentSlug": "doosan",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "W",
+      "opponent": "두산",
+      "homeAway": "away",
+      "score": "11-6",
+      "stadium": "잠실",
+      "winningPitcher": "에르난데스",
+      "losingPitcher": "플렉센",
+      "savePitcher": "",
+      "gameId": "20260403HHOB0",
+      "standoutHitter": {
+        "name": "페라자",
+        "stat": "14.2%(5타수 1득점 2안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "조동욱",
+        "stat": "6회말 중견수 플라이 아웃승리확률82.3% → 87.4%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "L",
@@ -201,28 +223,6 @@
       "standoutPitcher": {
         "name": "김서현",
         "stat": "9회말 삼진 아웃승리확률76.6% → 88.8%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "result": "W",
-      "opponent": "두산",
-      "homeAway": "home",
-      "score": "3-2",
-      "stadium": "대전",
-      "winningPitcher": "주현상",
-      "losingPitcher": "잭로그",
-      "savePitcher": "김서현",
-      "gameId": "20250612OBHH0",
-      "standoutHitter": {
-        "name": "이진영",
-        "stat": "8%(3타수 0득점 2안타 0타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "김서현",
-        "stat": "9회초 삼진 아웃승리확률55.1% → 80.2%",
         "rank": 1
       }
     }

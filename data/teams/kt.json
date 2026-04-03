@@ -1,8 +1,30 @@
 {
   "team": "KT Wiz",
   "slug": "kt",
-  "updatedAt": "2026-04-03T01:22:48+09:00",
+  "updatedAt": "2026-04-04T01:13:39+09:00",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "L",
+      "opponent": "삼성",
+      "homeAway": "home",
+      "score": "1-2",
+      "stadium": "수원",
+      "winningPitcher": "후라도",
+      "losingPitcher": "사우어",
+      "savePitcher": "김재윤",
+      "gameId": "20260403SSKT0",
+      "standoutHitter": {
+        "name": "장성우",
+        "stat": "21.7%(3타수 0득점 2안타 0타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "사우어",
+        "stat": "3",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-04-02",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "임준형",
         "stat": "8회초 삼진 아웃승리확률91.4% → 96.6%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2026-03-20",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "home",
-      "score": "4-1",
-      "stadium": "수원",
-      "winningPitcher": "고영표",
-      "losingPitcher": "정현우",
-      "savePitcher": "",
-      "gameId": "20260320WOKT0",
-      "standoutHitter": {
-        "name": "한승택",
-        "stat": "10.6%(2타수 0득점 1안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "고영표",
-        "stat": "2회초 3루수 라인드라이브 아웃승리확률55.5% → 64.7%",
-        "rank": 1
       }
     }
   ]

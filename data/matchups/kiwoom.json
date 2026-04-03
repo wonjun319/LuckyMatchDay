@@ -1,11 +1,33 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-04-03T01:22:59+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:46+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "LG",
   "opponentSlug": "lg",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "5-2",
+      "stadium": "고척",
+      "winningPitcher": "알칸타라",
+      "losingPitcher": "치리노스",
+      "savePitcher": "김재웅",
+      "gameId": "20260403LGWO0",
+      "standoutHitter": {
+        "name": "브룩스",
+        "stat": "21.1%(4타수 2득점 4안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "알칸타라",
+        "stat": "6회초 좌익수 플라이 아웃승리확률85.2% → 89.6%",
+        "rank": 4
+      }
+    },
     {
       "date": "2026-03-24",
       "result": "W",
@@ -203,33 +225,11 @@
         "stat": "5회말 2루수 라인드라이브 아웃승리확률50.7% → 59.1%",
         "rank": 3
       }
-    },
-    {
-      "date": "2025-06-08",
-      "result": "L",
-      "opponent": "LG",
-      "homeAway": "home",
-      "score": "2-7",
-      "stadium": "고척",
-      "winningPitcher": "송승기",
-      "losingPitcher": "정현우",
-      "savePitcher": "",
-      "gameId": "20250608LGWO0",
-      "standoutHitter": {
-        "name": "임지열",
-        "stat": "2.5%(3타수 0득점 2안타 0타점)",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "정현우",
-        "stat": "4회초 좌익수 플라이 아웃승리확률41.2% → 44.6%",
-        "rank": 3
-      }
     }
   ],
   "summary": {
-    "wins": 6,
-    "losses": 4,
+    "wins": 7,
+    "losses": 3,
     "draws": 0
   }
 }

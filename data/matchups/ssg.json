@@ -1,11 +1,33 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-04-03T01:22:25+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:26+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "롯데",
   "opponentSlug": "lotte",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "W",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "17-2",
+      "stadium": "사직",
+      "winningPitcher": "화이트",
+      "losingPitcher": "로드리게스",
+      "savePitcher": "",
+      "gameId": "20260403SKLT0",
+      "standoutHitter": {
+        "name": "박성한",
+        "stat": "14.1%(5타수 2득점 4안타 4타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "화이트",
+        "stat": "1회말 포수 스트라이크 낫 아웃 (포수 태그아웃)승리확률53.9% → 56.4%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-24",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "김광현",
         "stat": "3회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률37% → 44.1%",
         "rank": 3
-      }
-    },
-    {
-      "date": "2025-06-01",
-      "result": "W",
-      "opponent": "롯데",
-      "homeAway": "away",
-      "score": "4-3",
-      "stadium": "사직",
-      "winningPitcher": "김민",
-      "losingPitcher": "김원중",
-      "savePitcher": "조병현",
-      "gameId": "20250601SKLT0",
-      "standoutHitter": {
-        "name": "최지훈",
-        "stat": "37.5%(5타수 1득점 1안타 0타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김민",
-        "stat": "8회말 투수 병살타 아웃 (투수->포수->1루수 송구아웃)승리확률22.9% → 50%",
-        "rank": 1
       }
     }
   ],

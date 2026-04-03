@@ -1,11 +1,33 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-04-03T01:21:57+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:10+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "NC",
   "opponentSlug": "nc",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "home",
+      "score": "2-5",
+      "stadium": "광주",
+      "winningPitcher": "구창모",
+      "losingPitcher": "네일",
+      "savePitcher": "임지민",
+      "gameId": "20260403NCHT0",
+      "standoutHitter": {
+        "name": "한준수",
+        "stat": "1%(2타수 1득점 1안타 1타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "네일",
+        "stat": "3회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률37% → 44.1%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "L",
@@ -202,28 +224,6 @@
         "name": "김건국",
         "stat": "2회말 삼진 아웃승리확률45.2% → 52.4%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-08-08",
-      "result": "L",
-      "opponent": "NC",
-      "homeAway": "away",
-      "score": "4-5",
-      "stadium": "창원",
-      "winningPitcher": "라일리",
-      "losingPitcher": "김도현",
-      "savePitcher": "류진욱",
-      "gameId": "20250808HTNC0",
-      "standoutHitter": {
-        "name": "김선빈",
-        "stat": "33.5%(3타수 2득점 2안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김도현",
-        "stat": "1회말 3루수 병살타 아웃 (3루수->1루수 송구아웃)승리확률26.3% → 32.3%",
-        "rank": 5
       }
     }
   ],

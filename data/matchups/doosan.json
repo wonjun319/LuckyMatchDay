@@ -1,11 +1,33 @@
 {
   "team": "Doosan Bears",
   "slug": "doosan",
-  "updatedAt": "2026-04-03T01:22:30+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:29+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "한화",
   "opponentSlug": "hanwha",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "L",
+      "opponent": "한화",
+      "homeAway": "home",
+      "score": "6-11",
+      "stadium": "잠실",
+      "winningPitcher": "에르난데스",
+      "losingPitcher": "플렉센",
+      "savePitcher": "",
+      "gameId": "20260403HHOB0",
+      "standoutHitter": {
+        "name": "박준순",
+        "stat": "7.6%(4타수 0득점 3안타 2타점)",
+        "rank": 5
+      },
+      "standoutPitcher": {
+        "name": "양재훈",
+        "stat": "2회초 삼진 아웃승리확률27.5% → 33%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "잭로그",
         "stat": "6회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률32.4% → 42.1%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "result": "L",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "2-3",
-      "stadium": "대전",
-      "winningPitcher": "주현상",
-      "losingPitcher": "잭로그",
-      "savePitcher": "김서현",
-      "gameId": "20250612OBHH0",
-      "standoutHitter": {
-        "name": "김민석",
-        "stat": "22.7%(3타수 0득점 1안타 0타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "잭로그",
-        "stat": "7회말 2루수 플라이 아웃승리확률30.6% → 41.3%",
-        "rank": 3
       }
     }
   ],

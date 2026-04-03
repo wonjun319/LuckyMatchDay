@@ -1,11 +1,33 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-04-03T01:22:54+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:43+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "KIA",
   "opponentSlug": "kia",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "away",
+      "score": "5-2",
+      "stadium": "광주",
+      "winningPitcher": "구창모",
+      "losingPitcher": "네일",
+      "savePitcher": "임지민",
+      "gameId": "20260403NCHT0",
+      "standoutHitter": {
+        "name": "박민우",
+        "stat": "19.3%(4타수 0득점 3안타 3타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "구창모",
+        "stat": "5회말 삼진 아웃승리확률57.6% → 68%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-17",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "로건",
         "stat": "5회초 중견수 플라이 아웃승리확률81.9% → 86.6%",
         "rank": 3
-      }
-    },
-    {
-      "date": "2025-08-08",
-      "result": "W",
-      "opponent": "KIA",
-      "homeAway": "home",
-      "score": "5-4",
-      "stadium": "창원",
-      "winningPitcher": "라일리",
-      "losingPitcher": "김도현",
-      "savePitcher": "류진욱",
-      "gameId": "20250808HTNC0",
-      "standoutHitter": {
-        "name": "데이비슨",
-        "stat": "20.8%(2타수 1득점 1안타 3타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "류진욱",
-        "stat": "9회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률81.6% → 100%",
-        "rank": 1
       }
     }
   ],

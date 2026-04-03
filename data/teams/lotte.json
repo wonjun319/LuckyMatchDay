@@ -1,8 +1,30 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-04-03T01:22:38+09:00",
+  "updatedAt": "2026-04-04T01:13:34+09:00",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "L",
+      "opponent": "SSG",
+      "homeAway": "home",
+      "score": "2-17",
+      "stadium": "사직",
+      "winningPitcher": "화이트",
+      "losingPitcher": "로드리게스",
+      "savePitcher": "",
+      "gameId": "20260403SKLT0",
+      "standoutHitter": {
+        "name": "한동희",
+        "stat": "3",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "로드리게스",
+        "stat": "2회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률16.7% → 21%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-02",
       "result": "L",
@@ -199,28 +221,6 @@
         "name": "로드리게스",
         "stat": "1회초 삼진 아웃승리확률33.1% → 37.4%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2026-03-20",
-      "result": "L",
-      "opponent": "두산",
-      "homeAway": "home",
-      "score": "1-4",
-      "stadium": "사직",
-      "winningPitcher": "이영하",
-      "losingPitcher": "김태균",
-      "savePitcher": "김택연",
-      "gameId": "20260320OBLT0",
-      "standoutHitter": {
-        "name": "이호준",
-        "stat": "8.1%(2타수 0득점 1안타 0타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "쿄야마",
-        "stat": "4회초 삼진 아웃승리확률37.7% → 41.2%",
-        "rank": 3
       }
     }
   ]

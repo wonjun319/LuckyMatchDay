@@ -1,8 +1,30 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-04-03T01:22:57+09:00",
+  "updatedAt": "2026-04-04T01:13:45+09:00",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "W",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "5-2",
+      "stadium": "고척",
+      "winningPitcher": "알칸타라",
+      "losingPitcher": "치리노스",
+      "savePitcher": "김재웅",
+      "gameId": "20260403LGWO0",
+      "standoutHitter": {
+        "name": "브룩스",
+        "stat": "21.1%(4타수 2득점 4안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "알칸타라",
+        "stat": "6회초 좌익수 플라이 아웃승리확률85.2% → 89.6%",
+        "rank": 4
+      }
+    },
     {
       "date": "2026-04-02",
       "result": "L",
@@ -199,28 +221,6 @@
         "name": "윤석원",
         "stat": "6회말 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률94.7% → 98.1%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2026-03-20",
-      "result": "L",
-      "opponent": "KT",
-      "homeAway": "away",
-      "score": "1-4",
-      "stadium": "수원",
-      "winningPitcher": "고영표",
-      "losingPitcher": "정현우",
-      "savePitcher": "",
-      "gameId": "20260320WOKT0",
-      "standoutHitter": {
-        "name": "최주환",
-        "stat": "2.9%(3타수 0득점 1안타 0타점)",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "정현우",
-        "stat": "4",
-        "rank": 1
       }
     }
   ]

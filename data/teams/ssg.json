@@ -1,8 +1,30 @@
 {
   "team": "SSG Landers",
   "slug": "ssg",
-  "updatedAt": "2026-04-03T01:22:22+09:00",
+  "updatedAt": "2026-04-04T01:13:21+09:00",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "W",
+      "opponent": "롯데",
+      "homeAway": "away",
+      "score": "17-2",
+      "stadium": "사직",
+      "winningPitcher": "화이트",
+      "losingPitcher": "로드리게스",
+      "savePitcher": "",
+      "gameId": "20260403SKLT0",
+      "standoutHitter": {
+        "name": "박성한",
+        "stat": "14.1%(5타수 2득점 4안타 4타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "화이트",
+        "stat": "1회말 포수 스트라이크 낫 아웃 (포수 태그아웃)승리확률53.9% → 56.4%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-04-02",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "화이트",
         "stat": "2회초 유격수 플라이 아웃승리확률30.8% → 36.4%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-20",
-      "result": "L",
-      "opponent": "LG",
-      "homeAway": "home",
-      "score": "7-9",
-      "stadium": "문학",
-      "winningPitcher": "백승현",
-      "losingPitcher": "김현재",
-      "savePitcher": "우강훈",
-      "gameId": "20260320LGSK0",
-      "standoutHitter": {
-        "name": "김성욱",
-        "stat": "20.5%(3타수 0득점 1안타 2타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "김민준",
-        "stat": "3회초 포수 스트라이크 낫 아웃 (포수 태그아웃)승리확률51.2% → 55.9%",
-        "rank": 5
       }
     }
   ]

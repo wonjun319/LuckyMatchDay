@@ -1,8 +1,30 @@
 {
   "team": "KIA Tigers",
   "slug": "kia",
-  "updatedAt": "2026-04-03T01:21:00+09:00",
+  "updatedAt": "2026-04-04T01:12:34+09:00",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "L",
+      "opponent": "NC",
+      "homeAway": "home",
+      "score": "2-5",
+      "stadium": "광주",
+      "winningPitcher": "구창모",
+      "losingPitcher": "네일",
+      "savePitcher": "임지민",
+      "gameId": "20260403NCHT0",
+      "standoutHitter": {
+        "name": "한준수",
+        "stat": "1%(2타수 1득점 1안타 1타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "네일",
+        "stat": "3회초 3루수 병살타 아웃 (3루수->2루수->1루수 송구아웃)승리확률37% → 44.1%",
+        "rank": 3
+      }
+    },
     {
       "date": "2026-04-02",
       "result": "L",
@@ -81,8 +103,8 @@
       "savePitcher": "",
       "gameId": "20260329HTSK0",
       "standoutHitter": {
-        "name": "카스트로",
-        "stat": "3.7%(4타수 1득점 2안타 2타점)",
+        "name": "데일",
+        "stat": "3.7%(3타수 0득점 1안타 1타점)",
         "rank": 4
       },
       "standoutPitcher": {
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "김범수",
         "stat": "8회말 삼진 아웃승리확률89.2% → 92.8%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-20",
-      "result": "L",
-      "opponent": "한화",
-      "homeAway": "away",
-      "score": "8-13",
-      "stadium": "대전",
-      "winningPitcher": "문동주",
-      "losingPitcher": "김태형",
-      "savePitcher": "",
-      "gameId": "20260320HTHH0",
-      "standoutHitter": {
-        "name": "박재현",
-        "stat": "16.8%(1타수 0득점 1안타 3타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김태형",
-        "stat": "4",
         "rank": 1
       }
     }

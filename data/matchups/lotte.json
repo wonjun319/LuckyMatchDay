@@ -1,11 +1,33 @@
 {
   "team": "Lotte Giants",
   "slug": "lotte",
-  "updatedAt": "2026-04-03T01:22:40+09:00",
-  "gameDate": "2026-04-03",
+  "updatedAt": "2026-04-04T01:13:35+09:00",
+  "gameDate": "2026-04-04",
   "opponent": "SSG",
   "opponentSlug": "ssg",
   "last10": [
+    {
+      "date": "2026-04-03",
+      "result": "L",
+      "opponent": "SSG",
+      "homeAway": "home",
+      "score": "2-17",
+      "stadium": "사직",
+      "winningPitcher": "화이트",
+      "losingPitcher": "로드리게스",
+      "savePitcher": "",
+      "gameId": "20260403SKLT0",
+      "standoutHitter": {
+        "name": "한동희",
+        "stat": "3",
+        "rank": 2
+      },
+      "standoutPitcher": {
+        "name": "로드리게스",
+        "stat": "2회초 유격수 병살타 아웃 (유격수->2루수->1루수 송구아웃)승리확률16.7% → 21%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-03-24",
       "result": "L",
@@ -202,28 +224,6 @@
         "name": "감보아",
         "stat": "6회말 삼진 아웃승리확률57.6% → 67.3%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-06-01",
-      "result": "L",
-      "opponent": "SSG",
-      "homeAway": "home",
-      "score": "3-4",
-      "stadium": "사직",
-      "winningPitcher": "김민",
-      "losingPitcher": "김원중",
-      "savePitcher": "조병현",
-      "gameId": "20250601SKLT0",
-      "standoutHitter": {
-        "name": "윤동희",
-        "stat": "29.9%(2타수 2득점 2안타 1타점)",
-        "rank": 2
-      },
-      "standoutPitcher": {
-        "name": "김원중",
-        "stat": "9회초 포수 스트라이크 낫 아웃 (포수 태그아웃)승리확률33.9% → 53.6%",
-        "rank": 2
       }
     }
   ],
