@@ -1,11 +1,33 @@
 {
   "team": "LG Twins",
   "slug": "lg",
-  "updatedAt": "2026-04-04T01:13:19+09:00",
-  "gameDate": "2026-04-04",
+  "updatedAt": "2026-04-05T01:09:11+09:00",
+  "gameDate": "2026-04-05",
   "opponent": "키움",
   "opponentSlug": "kiwoom",
   "last10": [
+    {
+      "date": "2026-04-04",
+      "result": "W",
+      "opponent": "키움",
+      "homeAway": "away",
+      "score": "6-4",
+      "stadium": "고척",
+      "winningPitcher": "배재준",
+      "losingPitcher": "박윤성",
+      "savePitcher": "유영찬",
+      "gameId": "20260404LGWO0",
+      "standoutHitter": {
+        "name": "박해민",
+        "stat": "27.7%(4타수 0득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "우강훈",
+        "stat": "8회말 삼진 아웃승리확률74.2% → 81.6%",
+        "rank": 2
+      }
+    },
     {
       "date": "2026-04-03",
       "result": "L",
@@ -201,28 +223,6 @@
       "standoutPitcher": {
         "name": "김진성",
         "stat": "6회초 삼진 아웃승리확률85.2% → 89.6%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2025-07-08",
-      "result": "W",
-      "opponent": "키움",
-      "homeAway": "home",
-      "score": "4-3",
-      "stadium": "잠실",
-      "winningPitcher": "김진성",
-      "losingPitcher": "원종현",
-      "savePitcher": "유영찬",
-      "gameId": "20250708WOLG0",
-      "standoutHitter": {
-        "name": "박동원",
-        "stat": "10.6%(2타수 0득점 2안타 1타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "유영찬",
-        "stat": "9회초 중견수 플라이 아웃승리확률81.6% → 91.4%",
         "rank": 1
       }
     }

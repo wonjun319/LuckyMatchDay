@@ -1,11 +1,33 @@
 {
   "team": "Kiwoom Heroes",
   "slug": "kiwoom",
-  "updatedAt": "2026-04-04T01:13:46+09:00",
-  "gameDate": "2026-04-04",
+  "updatedAt": "2026-04-05T01:09:45+09:00",
+  "gameDate": "2026-04-05",
   "opponent": "LG",
   "opponentSlug": "lg",
   "last10": [
+    {
+      "date": "2026-04-04",
+      "result": "L",
+      "opponent": "LG",
+      "homeAway": "home",
+      "score": "4-6",
+      "stadium": "고척",
+      "winningPitcher": "배재준",
+      "losingPitcher": "박윤성",
+      "savePitcher": "유영찬",
+      "gameId": "20260404LGWO0",
+      "standoutHitter": {
+        "name": "박주홍",
+        "stat": "13.6%(3타수 0득점 1안타 2타점)",
+        "rank": 4
+      },
+      "standoutPitcher": {
+        "name": "김성진",
+        "stat": "8회초 유격수 병살타로 출루 2루주자 오스틴 : 태그아웃 (유격수->2루수->3루수 태그아웃)승리확률80.8% → 94.6%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-03",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "정현우",
         "stat": "1회말 삼진 아웃승리확률29.2% → 32.3%",
         "rank": 2
-      }
-    },
-    {
-      "date": "2025-07-08",
-      "result": "L",
-      "opponent": "LG",
-      "homeAway": "away",
-      "score": "3-4",
-      "stadium": "잠실",
-      "winningPitcher": "김진성",
-      "losingPitcher": "원종현",
-      "savePitcher": "유영찬",
-      "gameId": "20250708WOLG0",
-      "standoutHitter": {
-        "name": "임지열",
-        "stat": "4.8%(4타수 1득점 1안타 2타점)",
-        "rank": 3
-      },
-      "standoutPitcher": {
-        "name": "하영민",
-        "stat": "5회말 2루수 라인드라이브 아웃승리확률50.7% → 59.1%",
-        "rank": 3
       }
     }
   ],

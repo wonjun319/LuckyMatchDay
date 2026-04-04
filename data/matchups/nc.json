@@ -1,11 +1,33 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-04-04T01:13:43+09:00",
-  "gameDate": "2026-04-04",
+  "updatedAt": "2026-04-05T01:09:42+09:00",
+  "gameDate": "2026-04-05",
   "opponent": "KIA",
   "opponentSlug": "kia",
   "last10": [
+    {
+      "date": "2026-04-04",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "away",
+      "score": "6-0",
+      "stadium": "광주",
+      "winningPitcher": "테일러",
+      "losingPitcher": "이의리",
+      "savePitcher": "",
+      "gameId": "20260404NCHT0",
+      "standoutHitter": {
+        "name": "박민우",
+        "stat": "18.9%(3타수 2득점 2안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "테일러",
+        "stat": "1회말 유격수 병살타 아웃 (유격수->1루수 송구아웃)승리확률59.7% → 66.8%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-03",
       "result": "W",
@@ -202,28 +224,6 @@
         "name": "김영규",
         "stat": "5회초 삼진 아웃승리확률35.9% → 43.6%",
         "rank": 1
-      }
-    },
-    {
-      "date": "2025-08-10",
-      "result": "W",
-      "opponent": "KIA",
-      "homeAway": "home",
-      "score": "16-12",
-      "stadium": "창원",
-      "winningPitcher": "로건",
-      "losingPitcher": "이의리",
-      "savePitcher": "류진욱",
-      "gameId": "20250810HTNC0",
-      "standoutHitter": {
-        "name": "박건우",
-        "stat": "32.3%(4타수 2득점 2안타 4타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "로건",
-        "stat": "5회초 중견수 플라이 아웃승리확률81.9% → 86.6%",
-        "rank": 3
       }
     }
   ],

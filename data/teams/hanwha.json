@@ -1,8 +1,30 @@
 {
   "team": "Hanwha Eagles",
   "slug": "hanwha",
-  "updatedAt": "2026-04-04T01:13:36+09:00",
+  "updatedAt": "2026-04-05T01:09:32+09:00",
   "last10": [
+    {
+      "date": "2026-04-04",
+      "result": "W",
+      "opponent": "두산",
+      "homeAway": "away",
+      "score": "9-3",
+      "stadium": "잠실",
+      "winningPitcher": "왕옌청",
+      "losingPitcher": "곽빈",
+      "savePitcher": "",
+      "gameId": "20260404HHOB0",
+      "standoutHitter": {
+        "name": "강백호",
+        "stat": "11.6%(4타수 2득점 2안타 2타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "왕옌청",
+        "stat": "4회말 삼진 아웃승리확률72.1% → 75.7%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-03",
       "result": "W",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "에르난데스",
         "stat": "1회말 삼진 아웃승리확률44.8% → 50%",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "result": "L",
-      "opponent": "롯데",
-      "homeAway": "away",
-      "score": "6-12",
-      "stadium": "사직",
-      "winningPitcher": "로드리게스",
-      "losingPitcher": "엄상백",
-      "savePitcher": "",
-      "gameId": "20260321HHLT0",
-      "standoutHitter": {
-        "name": "노시환",
-        "stat": "5.2%(4타수 0득점 1안타 2타점)",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "엄상백",
-        "stat": "1회말 유격수 플라이 아웃승리확률46.3% → 53.9%",
         "rank": 1
       }
     }

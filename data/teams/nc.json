@@ -1,8 +1,30 @@
 {
   "team": "NC Dinos",
   "slug": "nc",
-  "updatedAt": "2026-04-04T01:13:42+09:00",
+  "updatedAt": "2026-04-05T01:09:40+09:00",
   "last10": [
+    {
+      "date": "2026-04-04",
+      "result": "W",
+      "opponent": "KIA",
+      "homeAway": "away",
+      "score": "6-0",
+      "stadium": "광주",
+      "winningPitcher": "테일러",
+      "losingPitcher": "이의리",
+      "savePitcher": "",
+      "gameId": "20260404NCHT0",
+      "standoutHitter": {
+        "name": "박민우",
+        "stat": "18.9%(3타수 2득점 2안타 1타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "테일러",
+        "stat": "1회말 유격수 병살타 아웃 (유격수->1루수 송구아웃)승리확률59.7% → 66.8%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-03",
       "result": "W",
@@ -199,28 +221,6 @@
         "name": "원종해",
         "stat": "3회말 삼진 아웃승리확률17.3% → 21.2%",
         "rank": 4
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "result": "L",
-      "opponent": "KT",
-      "homeAway": "away",
-      "score": "2-8",
-      "stadium": "수원",
-      "winningPitcher": "소형준",
-      "losingPitcher": "라일리",
-      "savePitcher": "",
-      "gameId": "20260321NCKT0",
-      "standoutHitter": {
-        "name": "고준휘",
-        "stat": "4.7%(1타수 0득점 1안타 2타점)",
-        "rank": 4
-      },
-      "standoutPitcher": {
-        "name": "라일리",
-        "stat": "2회말 유격수 라인드라이브 아웃승리확률24.8% → 31%",
-        "rank": 1
       }
     }
   ]

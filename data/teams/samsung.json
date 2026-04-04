@@ -1,8 +1,30 @@
 {
   "team": "Samsung Lions",
   "slug": "samsung",
-  "updatedAt": "2026-04-04T01:13:30+09:00",
+  "updatedAt": "2026-04-05T01:09:25+09:00",
   "last10": [
+    {
+      "date": "2026-04-04",
+      "result": "W",
+      "opponent": "KT",
+      "homeAway": "away",
+      "score": "8-6",
+      "stadium": "수원",
+      "winningPitcher": "이승현",
+      "losingPitcher": "전용주",
+      "savePitcher": "최지광",
+      "gameId": "20260404SSKT0",
+      "standoutHitter": {
+        "name": "강민호",
+        "stat": "33.8%(4타수 0득점 3안타 4타점)",
+        "rank": 1
+      },
+      "standoutPitcher": {
+        "name": "최원태",
+        "stat": "5회말 2루수 병살타 아웃 (2루수->유격수->1루수 송구아웃)승리확률52% → 62.6%",
+        "rank": 1
+      }
+    },
     {
       "date": "2026-04-03",
       "result": "W",
@@ -198,28 +220,6 @@
       "standoutPitcher": {
         "name": "최원태",
         "stat": "4",
-        "rank": 1
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "result": "W",
-      "opponent": "LG",
-      "homeAway": "home",
-      "score": "4-3",
-      "stadium": "대구",
-      "winningPitcher": "후라도",
-      "losingPitcher": "이우찬",
-      "savePitcher": "김재윤",
-      "gameId": "20260321LGSS0",
-      "standoutHitter": {
-        "name": "이재현",
-        "stat": "17.4%(2타수 1득점 1안타 2타점)",
-        "rank": 1
-      },
-      "standoutPitcher": {
-        "name": "김재윤",
-        "stat": "9회초 3루수 파울플라이 아웃승리확률81.5% → 89.7%",
         "rank": 1
       }
     }
